@@ -6,8 +6,4 @@ slug = "stephen-king-at-umass-lowell"
 
 A one hour long interview with Stephen King.
 
-{{< rawhtml >}}
-<iframe width="480" height="360" src="//www.youtube-nocookie.com/embed/l8TkQvdJVbc?rel=0" frameborder="0" allowfullscreen></iframe>
-
-<div style="clear: both;"></div>
-{{< /rawhtml >}}
+{{< youtube id="NLfINvRut4I" image="/media/2014/NLfINvRut4I.png" title="Stephen King at UMass Lowell" >}}
