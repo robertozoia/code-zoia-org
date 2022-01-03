@@ -1,0 +1,39 @@
+baseURL = "https://code.zoia.org/"
+languageCode = "en-us"
+title = "code.zoia.org"
+theme = "code-zoia"
+
+googleAnalytics = "UA-1449924-3"
+enableRobotsTXT = true
+
+
+[markup.goldmark.renderer]
+unsafe= true
+
+[params]
+  author = "Roberto Zoia"
+  email = "roberto@zoia.org"
+  dateFormat = "2006-01-02"
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+
+[menu]
+    [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 1
+
+    [[menu.main]]
+    identifier = "archive"
+    name = "Archive"
+    url = "/archive/"
+    weight = 2
+
+    [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 3

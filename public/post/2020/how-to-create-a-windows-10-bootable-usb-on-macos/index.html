@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html><head>
+    
+    
+    <title>
+        How to create a Windows 10 bootable USB on MacOS
+    </title>
+    
+    <meta charset="utf-8">
+    <meta name="generator" content="Hugo 0.91.2" />
+     <meta property="og:title" content="How to create a Windows 10 bootable USB on MacOS" />
+<meta property="og:description" content="You don’t need Unetbootin, MacOS’ Boot Camp, or Rufus for Windows to create a Windows 10 USB bootable drive on a Mac to install Windows on a PC.
+I needed to install Windows 10 in a new custom-build PC. I don’t have a single machine running Windows at home, so using Windows to create the bootable installer was out of the question. I tried most of the recommended methods, but after booting from the USB drive and partitioning the disk of the new machine, the Windows installer always complained that it couldn’t find some files it needed for the installation." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://code.zoia.org/post/2020/how-to-create-a-windows-10-bootable-usb-on-macos/" /><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2020-08-02T00:00:00+00:00" />
+<meta property="article:modified_time" content="2020-08-02T00:00:00+00:00" />
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href='/css/styles.css'>
+    <link rel="stylesheet" type="text/css" href='/css/syntax.css'>
+</head>
+<body>
+        <div class="container max-w-screen-md mx-auto"><header class="container subpixel-antialiased">
+    <nav class="flex flex-wrap w-full py-4 md:py-0 text-lg text-gray-70 bg-white">
+        <ul class="text-base
+                   text-gray-300
+                   pt-4
+                   md:flex
+                   md:pt-0
+                   sans-serif
+                   uppercase
+                   "
+        >
+            <li class="md:pt-3
+                py-2
+                block"><span class="
+                                    font-medium
+                                    text-lg
+                                    text-gray-500"
+                       >code</span><span
+                            class="font-medium
+                                   text-logoleft
+                                   text-lg"
+                        >zoia</span><span
+                             class="
+                                    text-lg
+                                    font-medium
+                                    text-gray-500"
+                       >org</span></li>
+            
+                <li><a class="text-sm md:p-4 py-2 block hover:underline" href="/about/">About</a></li>
+            
+                <li><a class="text-sm md:p-4 py-2 block hover:underline" href="/archive/">Archive</a></li>
+            
+                <li><a class="text-sm md:p-4 py-2 block hover:underline" href="/">Home</a></li>
+            
+
+        </ul>
+    </nav>
+</header>
+</div>
+        <div class="content container max-w-screen-md mx-auto mt-8 pb-16">
+    <article class="pb-4 mb-10">
+        <header class="border-b">
+            <h1 class="text-3xl font-sans font-normal">How to create a Windows 10 bootable USB on MacOS</h1>
+            <div class="text-sm text-gray-500">
+    <time datetime='2020-08-02'>
+        August 2, 2020
+    </time>
+
+</div>
+
+        </header>
+        <div class="mt-3 font-sans font-light text-gray-900">
+            <p>You don’t need Unetbootin, MacOS’ Boot Camp, or Rufus for Windows to create a Windows 10 USB bootable drive on a Mac to install Windows on a PC.</p>
+<p>I needed to install Windows 10 in a new custom-build PC. I don’t have a single machine running Windows at home, so using Windows to create the bootable installer was out of the question.  I tried most of the recommended methods, but after booting from the USB drive and partitioning the disk of the new machine, the Windows installer always complained that it couldn’t find some files it needed for the installation.</p>
+<p>Finally, I found the culprit on <a href="https://apple.stackexchange.com/questions/355930/how-to-create-a-windows-10-bootable-usb-on-a-mac-for-pc-without-bootcamp-when-i">Stack Exchange</a>.  The Windows installer ISO image contains a file named <code>install.wim</code>, which is over 4G bytes long.  The USB drive is formatted as FAT32, which cannot hold files over 4G.  So, although you’ll find a file named <code>install.wim</code> on the USB drive after creating the installer, the file is corrupted and the installation fails.</p>
+<p>The workaround is to <em>compress</em> the  <code>install.wim</code> file on your Mac and copy the compressed file, which is around 1GB smaller, to the USB drive.  After that, the Windows installer finishes without complain.</p>
+<ol>
+<li>
+<p>Download Windows 10 as an ISO image from <a href="https://www.microsoft.com/en-us/software-download/windows10ISO">Microsoft</a>.</p>
+</li>
+<li>
+<p>You’ll need an USB  drive with at least 5G of space. Using MacOS’s Disk Util, format the USB to ExFAT or FAT (The exact format is not important for the Windows installer, but if your mainboard is not new  the mainboard of the computer you are installing to can read the USB drive).  Be sure to create boot partition (MBR) while formatting. You’ll need to select ‘Show all devices’ using the upper left button in Disk Util so you can select the whole device for formatting, and not only the available partition.</p>
+</li>
+</ol>
+<p><img src="/media/2020/diskutil.png" alt=""></p>
+<ol start="3">
+<li>Install <code>wimlib</code> on MacOS using <a href="https://brew.sh/">homebrew</a>:</li>
+</ol>
+<p><code>$ brew install wimlib</code></p>
+<ol start="4">
+<li>
+<p>Double-click on the ISO file to mount it.</p>
+</li>
+<li>
+<p>Select all files in the now-mounted ISO image and them to the USB drive.  Depending on the speed of your USB drive, this may take 20 minutes or more.</p>
+</li>
+<li>
+<p>In the mounted ISO image, go to the <code>sources</code> directory, and copy <code>install.wim</code> to a folder on your Mac. (You cannot compress it directly inside the ISO image.)</p>
+</li>
+<li>
+<p>From the terminal, in the folder you just copied <code>install.wim</code> to, use <code>wimlib</code> to compress the file. Compressing the file will take a long time, probably more than an hour.</p>
+</li>
+</ol>
+<p><code>$ sudo wimlib-imagex optimize install.wim --solid</code></p>
+<ol start="8">
+<li>Open the <code>sources</code> directory in the USB drive and <strong>delete</strong> the <code>install.wim</code> file.</li>
+<li>Copy your compressed <code>install.wim</code> file to the <code>sources</code> directory on the USB drive.</li>
+<li>Unmount the USB drive.</li>
+</ol>
+<p>And that’s it!  You now have a working Windows 10 installer created on MacOS.</p>
+
+        </div>
+    </article>
+
+
+        </div>
+        <footer class="footer fixed inset-x-0 bottom-0 w-full bg-black text-gray-100 text-sm">
+    <div class="container max-w-screen-md mx-auto pt-4 py-4">
+        The footer.
+    </div>
+</footer>
+
+    </body>
+</html>

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html><head>
+    
+    
+    <title>
+        Doom Emacs, Hunspell, and MacOs
+    </title>
+    
+    <meta charset="utf-8">
+    <meta name="generator" content="Hugo 0.91.2" />
+     <meta property="og:title" content="Doom Emacs, Hunspell, and MacOs" />
+<meta property="og:description" content="Doom Emacs uses spell-fu as the default highlighter for spellchecking. spell-fu can use several options like aspell, hunspell, enchant, etc. for the actual spellchecking. I prefer to use Hunspell.
+The process to install and configure hunspell to work for Doom Emacs is simple:
+ Use homebrew to install hunspell:   $ brew install hunspell  hunspell doesn&rsquo;t install dictionaries. Download them from the aspell webpage and store them in ~/Library/Spelling." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://code.zoia.org/post/20210408-doom-emacs-hunspell-macos/" /><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2021-04-08T00:00:00+00:00" />
+<meta property="article:modified_time" content="2021-04-08T00:00:00+00:00" />
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href='/css/styles.css'>
+    <link rel="stylesheet" type="text/css" href='/css/syntax.css'>
+</head>
+<body>
+        <div class="container max-w-screen-md mx-auto"><header class="container subpixel-antialiased">
+    <nav class="flex flex-wrap w-full py-4 md:py-0 text-lg text-gray-70 bg-white">
+        <ul class="text-base
+                   text-gray-300
+                   pt-4
+                   md:flex
+                   md:pt-0
+                   sans-serif
+                   uppercase
+                   "
+        >
+            <li class="md:pt-3
+                py-2
+                block"><span class="
+                                    font-medium
+                                    text-lg
+                                    text-gray-500"
+                       >code</span><span
+                            class="font-medium
+                                   text-logoleft
+                                   text-lg"
+                        >zoia</span><span
+                             class="
+                                    text-lg
+                                    font-medium
+                                    text-gray-500"
+                       >org</span></li>
+            
+                <li><a class="text-sm md:p-4 py-2 block hover:underline" href="/about/">About</a></li>
+            
+                <li><a class="text-sm md:p-4 py-2 block hover:underline" href="/archive/">Archive</a></li>
+            
+                <li><a class="text-sm md:p-4 py-2 block hover:underline" href="/">Home</a></li>
+            
+
+        </ul>
+    </nav>
+</header>
+</div>
+        <div class="content container max-w-screen-md mx-auto mt-8 pb-16">
+    <article class="pb-4 mb-10">
+        <header class="border-b">
+            <h1 class="text-3xl font-sans font-normal">Doom Emacs, Hunspell, and MacOs</h1>
+            <div class="text-sm text-gray-500">
+    <time datetime='2021-04-08'>
+        April 8, 2021
+    </time>
+
+</div>
+
+        </header>
+        <div class="mt-3 font-sans font-light text-gray-900">
+            <p>Doom Emacs uses <a href="https://gitlab.com/ideasman42/emacs-spell-fu"><code>spell-fu</code></a> as the default highlighter for spellchecking. <code>spell-fu</code> can use several options like <code>aspell</code>, <code>hunspell</code>, <code>enchant</code>, etc. for the actual spellchecking. I prefer to use <a href="https://hunspell.github.io/">Hunspell</a>.</p>
+<p>The process to install and configure <code>hunspell</code> to work for Doom Emacs is simple:</p>
+<ul>
+<li>Use <a href="https://brew.sh/">homebrew</a> to install <code>hunspell</code>:</li>
+</ul>
+<!--listend-->
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ brew install hunspell
+</code></pre></div><ul>
+<li><code>hunspell</code> doesn&rsquo;t install dictionaries. Download them from the <a href="http://wordlist.aspell.net/dicts/">aspell</a> webpage and store them in <code>~/Library/Spelling</code>. Check that <code>hunspell</code> is recognizing your dictionaries.</li>
+</ul>
+<!--listend-->
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ hunspell -D
+</code></pre></div><ul>
+<li>Tell Doom Emacs you are using <code>hunspell</code> in your <code>init.el</code> file:</li>
+</ul>
+<!--listend-->
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-emacs-lisp" data-lang="emacs-lisp">(<span style="color:#f92672">...</span>)
+:checkers
+    (spell +hunspell)       <span style="color:#75715e">; tasing you for misspelling mispelling</span>
+</code></pre></div><ul>
+<li>
+<p>While Doom will take care of telling Emacs which spell checker you are using, <em>you need to specify a default dictionary</em>. Otherwise you will go crazy wondering why <code>spell-fu</code> is marking every word in your documents as incorrect. (This applies not only for <code>hunspell</code> but also for <code>aspell</code> and <code>enchant</code>.)</p>
+<p>You can get a list of valid dictionary names by changing the dictionary manually within Emacs, i.e. <code>M-x</code> <code>ispell-change-dictionary</code>.</p>
+</li>
+</ul>
+<!--listend-->
+<pre tabindex="0"><code class="language-list" data-lang="list">(setq ispell-dictionary &quot;english&quot;)
+</code></pre>
+        </div>
+    </article>
+
+
+        </div>
+        <footer class="footer fixed inset-x-0 bottom-0 w-full bg-black text-gray-100 text-sm">
+    <div class="container max-w-screen-md mx-auto pt-4 py-4">
+        The footer.
+    </div>
+</footer>
+
+    </body>
+</html>

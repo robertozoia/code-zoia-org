@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html><head>
+    
+    
+    <title>
+        Blog migrated to Pelican
+    </title>
+    
+    <meta charset="utf-8">
+    <meta name="generator" content="Hugo 0.91.2" />
+     <meta property="og:title" content="Blog migrated to Pelican" />
+<meta property="og:description" content="A year ago I started developing a static blogging engine called Ristretto. It was written in Python, used markdown files as input, Jinja2 for templating, and generated static html files on my web server. Some weeks later, I migrated my main blog (zoia.org) and this blog from Wordpress to my new blogging platform.
+Compared to writing in Wordpress, I enjoyed the new platform a lot. Over 2013 I kept adding functionality to Ristretto." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://code.zoia.org/2014/02/blog-migrated-to-pelican/" /><meta property="article:section" content="2014" />
+<meta property="article:published_time" content="2014-02-20T00:00:00+00:00" />
+<meta property="article:modified_time" content="2014-02-20T00:00:00+00:00" />
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href='/css/styles.css'>
+    <link rel="stylesheet" type="text/css" href='/css/syntax.css'>
+</head>
+<body>
+        <div class="container max-w-screen-md mx-auto"><header class="container subpixel-antialiased">
+    <nav class="flex flex-wrap w-full py-4 md:py-0 text-lg text-gray-70 bg-white">
+        <ul class="text-base
+                   text-gray-300
+                   pt-4
+                   md:flex
+                   md:pt-0
+                   sans-serif
+                   uppercase
+                   "
+        >
+            <li class="md:pt-3
+                py-2
+                block"><span class="
+                                    font-medium
+                                    text-lg
+                                    text-gray-500"
+                       >code</span><span
+                            class="font-medium
+                                   text-logoleft
+                                   text-lg"
+                        >zoia</span><span
+                             class="
+                                    text-lg
+                                    font-medium
+                                    text-gray-500"
+                       >org</span></li>
+            
+                <li><a class="text-sm md:p-4 py-2 block hover:underline" href="/about/">About</a></li>
+            
+                <li><a class="text-sm md:p-4 py-2 block hover:underline" href="/archive/">Archive</a></li>
+            
+                <li><a class="text-sm md:p-4 py-2 block hover:underline" href="/">Home</a></li>
+            
+
+        </ul>
+    </nav>
+</header>
+</div>
+        <div class="content container max-w-screen-md mx-auto mt-8 pb-16">
+    <article class="pb-4 mb-10">
+        <header class="border-b">
+            <h1 class="text-3xl font-sans font-normal">Blog migrated to Pelican</h1>
+            <div class="text-sm text-gray-500">
+    <time datetime='2014-02-20'>
+        February 20, 2014
+    </time>
+
+    
+        
+        <a class="" href="https://code.zoia.org/tags/ristretto">ristretto</a>
+        
+        
+        <a class="" href="https://code.zoia.org/tags/static-blog-generators">static blog generators</a>
+        
+        
+        <a class="" href="https://code.zoia.org/tags/baked-blog">baked blog</a>
+        
+        
+        <a class="" href="https://code.zoia.org/tags/python">python</a>
+        
+        
+        <a class="" href="https://code.zoia.org/tags/pelican">pelican</a>
+        
+   
+</div>
+
+        </header>
+        <div class="mt-3 font-sans font-light text-gray-900">
+            <p>A year ago I started developing a static blogging engine called <a href="https://github.com/robertozoia/ristretto">Ristretto</a>. It was written in Python, used markdown files as input, Jinja2 for templating, and generated static html files on my web server.  Some weeks later, <a href="http://code.zoia.org/2013/01/07/blogging-with-ristretto/">I migrated</a> my main blog (<a href="http://zoia.org">zoia.org</a>) and this blog from Wordpress to my new blogging platform.</p>
+<p>Compared to writing in Wordpress, I enjoyed the new platform a lot. Over 2013 I kept adding functionality to Ristretto.  At one point midyear, I rewrote part of the engine so that it read posts from a Dropbox account instead of the local folder.  The engine, now running on the web server, generated the blog using the Dropbox API.  Now I could write and publish from anywhere I could use a text editor and access my Dropbox account.</p>
+<p>But reading files through the Dropbox API was <em>slow</em>.  I had to implement some caching mechanism to speed things up.  Other improvements followed&hellip; I changed the posts header structure (the post metadata) from my custom format to the more standard YAML, so posts could be easily ported to other blogging platforms if needed. I had to write some code around the RSS generator I was using (<code>pyrss2gen</code>) so it correctly embedded image urls in the RSS feed.</p>
+<h3 id="spend-your-time-writing-not-tweaking-your-blogging-platform">Spend your time writing, not tweaking your blogging platform</h3>
+<p>I&rsquo;ve been happy blogging with Risttretto.  But instead of spending more time writing, I was frequently trying to improving the code.  And there were some shortcomings in the way I had implemented the engine that kept bothering me.</p>
+<p>First, if a post contains images, the image files have to be uploaded manually to the web server.  And you will have to figure out in advance the url that the images will have <em>when the post is published</em>, because the engine does no conversion of the url. (This also means that the images will not show in the post if previewed locally.)</p>
+<p>Second, because of the way Ristretto is designed, the template files reside on the server and are not updated via Dropbox<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>. Whenever I found a minor bug in my template, I usually fixed it directly on the server&hellip; but later forgot to sync the changes with my local copy.</p>
+<p>And regenerating my two blogs, which have not so many posts, was still <em>slow</em>.</p>
+<p>So, after some thought, I decided to migrate to another static blogging engine.  Ristretto has been a nice experiment, but I want to spend more time writing articles, not rewriting yet-another-static-blog-generator.</p>
+<h3 id="migrating-to-pelican">Migrating to Pelican</h3>
+<p>I chose <a href="http://docs.getpelican.com/">Pelican</a> over Octopress or other engines like Nerve because I had read very positive reviews about the engine, and because It&rsquo;s written in Python.  I&rsquo;m very comfortable deploying web apps in Python, and I wanted to minimize the time required to switch engines.</p>
+<p>Dropbox synchronicity and the ability to write posts from anywhere was not negotiable. After some web research, I followed <a href="http://joehewitt.com/2011/10/03/dropbox-is-my-publish-button">Joe Hewitt&rsquo;s advice</a> and created a separated Dropbox account for my blog, and then shared a folder in that account with my main Dropbox account. This shared folder is where posts, images, and template files resides, and where I write new posts.</p>
+<p>I installed <a href="https://github.com/gregghz/Watcher">watcher</a> to monitor the folder containing my posts, and launch Pelican to regenerate the blog any time a change is detected<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>.</p>
+<p>Converting my templates to Pelican templates was straightforward, because both Ristretto and Pelican use Jinja2. Only some variable name changes were required.</p>
+<p>Migrating to Pelican was <em>fast</em>.  Having my two blogs running on Pelican, including writing a small script in Python to migrate my old posts&rsquo;s header structure to Pelican&rsquo;s format, took me around four hours.</p>
+<section class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1" role="doc-endnote">
+<p>Keep in mind that Ristretto reads the blog posts using the Dropbox API, not through a local Dropbox folder.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2" role="doc-endnote">
+<p>I had some trouble with Python paths and <code>watcher</code> because the way <code>publishconf.py</code> in Pelican added the current directory to the Python path.&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</section>
+
+        </div>
+    </article>
+
+
+        </div>
+        <footer class="footer fixed inset-x-0 bottom-0 w-full bg-black text-gray-100 text-sm">
+    <div class="container max-w-screen-md mx-auto pt-4 py-4">
+        The footer.
+    </div>
+</footer>
+
+    </body>
+</html>

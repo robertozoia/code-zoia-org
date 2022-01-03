@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2011s on code.zoia.org</title>
+    <link>https://code.zoia.org/2011/</link>
+    <description>Recent content in 2011s on code.zoia.org</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 15 Dec 2011 00:00:00 +0000</lastBuildDate><atom:link href="https://code.zoia.org/2011/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Textmate 2.0 alpha</title>
+      <link>https://code.zoia.org/2011/12/15/textmate-2-0-alpha/</link>
+      <pubDate>Thu, 15 Dec 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://code.zoia.org/2011/12/15/textmate-2-0-alpha/</guid>
+      <description>Finally. If you have a licensed copy of Textmate 1.5, grab your copy here.</description>
+    </item>
+    
+    <item>
+      <title>John Carmack on rigorous code analysis</title>
+      <link>https://code.zoia.org/2011/08/25/john-carmack-on-rigorous-code-analysis/</link>
+      <pubDate>Thu, 25 Aug 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://code.zoia.org/2011/08/25/john-carmack-on-rigorous-code-analysis/</guid>
+      <description>Gamasutra interviews John Carmack, creator of Doom.
+ One of the humbling things that you find is that, no matter how good of a programmer you are, you write code, and you make stupid mistakes. And I am getting to be a huge proponent of really, really rigorous code analysis, because I have been going through pioneering these things, just squeegeeing through our code base, and every single programmer &amp;ndash; from our best to our worst &amp;ndash; they all make stupid mistakes, and they are unavoidable.</description>
+    </item>
+    
+    <item>
+      <title>Using TextMate and Python&#39;s virtualenv</title>
+      <link>https://code.zoia.org/2011/05/25/using-textmate-and-python-virtualenv/</link>
+      <pubDate>Wed, 25 May 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://code.zoia.org/2011/05/25/using-textmate-and-python-virtualenv/</guid>
+      <description>TextMate is a great text editor for MacOs. But the default Python bundle does not recognize Python&amp;rsquo;s virtual environments (virtualenv), which is rather annoying.
+No need to modify your Textmate bundle. This can be solved by declaring a project-specific shell variable named TM_PYTHON and assigning your virtualenv&amp;rsquo;s custom python&amp;rsquo;s path to it:
+ In TextMate, create a new project for your python program Open the Project Drawer Window (View/Open Project Drawer) Make sure no file is selected in the drawer.</description>
+    </item>
+    
+    <item>
+      <title>Java Programming 101</title>
+      <link>https://code.zoia.org/2011/04/15/java-programming-101/</link>
+      <pubDate>Fri, 15 Apr 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://code.zoia.org/2011/04/15/java-programming-101/</guid>
+      <description>Releyendo unos posts antiguos de otro blog, encontré unos apuntes que escribí el 2006 para complementar las clases de Programación Java que dicté en la Facultad de Ingeniería de la Universidad de Piura en Lima. Los vuelvo a publicar por si sirven a otros.
+Los apuntes están publicados bajo una licencia Creative Commons Attribution-ShareAlike 2.5. Se pueden crear trabajos derivados, copiar, compartir, etc., mientras se respete esa licencia. Si alguno quiere los archivos originales para modificarlos, se los puedo enviar.</description>
+    </item>
+    
+  </channel>
+</rss>

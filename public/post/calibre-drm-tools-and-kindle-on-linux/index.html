@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html><head>
+    
+    
+    <title>
+        How to use Calibre with DeDRM tools on Linux to backup your Kindle library
+    </title>
+    
+    <meta charset="utf-8">
+    <meta name="generator" content="Hugo 0.91.2" />
+     <meta property="og:title" content="How to use Calibre with DeDRM tools on Linux to backup your Kindle library" />
+<meta property="og:description" content="Amazon Kindle&rsquo;s ecosystem lets you buy an ebook and begin reading seconds after purchasing it. However, as most of Amazon&rsquo;s book are DRM-protected, you cannot make a backup of your library or convert your books´ format to read them on another platform. Companies come and go, and even if Amazon&rsquo;s is here for the long run, it&rsquo;s policies regarding how you can access the content your paid for may change in the future." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://code.zoia.org/post/calibre-drm-tools-and-kindle-on-linux/" /><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2020-09-19T12:52:15-05:00" />
+<meta property="article:modified_time" content="2020-09-19T12:52:15-05:00" />
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href='/css/styles.css'>
+    <link rel="stylesheet" type="text/css" href='/css/syntax.css'>
+</head>
+<body>
+        <div class="container max-w-screen-md mx-auto"><header class="container subpixel-antialiased">
+    <nav class="flex flex-wrap w-full py-4 md:py-0 text-lg text-gray-70 bg-white">
+        <ul class="text-base
+                   text-gray-300
+                   pt-4
+                   md:flex
+                   md:pt-0
+                   sans-serif
+                   uppercase
+                   "
+        >
+            <li class="md:pt-3
+                py-2
+                block"><span class="
+                                    font-medium
+                                    text-lg
+                                    text-gray-500"
+                       >code</span><span
+                            class="font-medium
+                                   text-logoleft
+                                   text-lg"
+                        >zoia</span><span
+                             class="
+                                    text-lg
+                                    font-medium
+                                    text-gray-500"
+                       >org</span></li>
+            
+                <li><a class="text-sm md:p-4 py-2 block hover:underline" href="/about/">About</a></li>
+            
+                <li><a class="text-sm md:p-4 py-2 block hover:underline" href="/archive/">Archive</a></li>
+            
+                <li><a class="text-sm md:p-4 py-2 block hover:underline" href="/">Home</a></li>
+            
+
+        </ul>
+    </nav>
+</header>
+</div>
+        <div class="content container max-w-screen-md mx-auto mt-8 pb-16">
+    <article class="pb-4 mb-10">
+        <header class="border-b">
+            <h1 class="text-3xl font-sans font-normal">How to use Calibre with DeDRM tools on Linux to backup your Kindle library</h1>
+            <div class="text-sm text-gray-500">
+    <time datetime='2020-09-19'>
+        September 19, 2020
+    </time>
+
+    
+        
+        <a class="" href="https://code.zoia.org/tags/drm">drm</a>
+        
+   
+</div>
+
+        </header>
+        <div class="mt-3 font-sans font-light text-gray-900">
+            <p>Amazon Kindle&rsquo;s ecosystem lets you buy an ebook and begin reading seconds after purchasing it. However, as most of Amazon&rsquo;s book are DRM-protected, you cannot make a backup of your library or convert your books´ format to read them on another platform. Companies come and go, and even if Amazon&rsquo;s is here for the long run, it&rsquo;s policies regarding how you can access the content your paid for may change in the future.</p>
+<p>Using a Kindle app version prior to 1.26 On Windows or MacOs, you can use Calibre with Aprentice Alf&rsquo;s DeDRM plugin to convert the books from your Kindle app on your computer to a DRM-free format. The plugin automatically extracts the necessary key the Kindle app uses to encrypt your books and makes the process transparent.</p>
+<p>On Linux, you can use Wine to install the Kindle app. However, the DeDRM plugin doesn&rsquo;t extract the decryption key automatically.  To extract the key, you need to install Python and PyCrypto in Wine and run <code>kindlekey.py</code> manually. Once you have the key, you can import it into Calibre using the DeDRM plugin.</p>
+<p>I&rsquo;ve tested the setup using Ubuntu 20.04.</p>
+<ol>
+<li>
+<p>Install <a href="https://calibre-ebook.com/">Calibre</a> for Linux.</p>
+</li>
+<li>
+<p>Download <a href="https://apprenticealf.wordpress.com/">Aprentice Alf&rsquo;s DeDRM tools</a>. Uncompress the file, open Calibre and install the DeDRM plugin.</p>
+</li>
+<li>
+<p>Uncompress the DeDRM plugin file (<code>DeDRM_Plugin.zip</code>) and verify that there&rsquo;s a file named <code>kindlekey.py</code>.</p>
+</li>
+<li>
+<p>Install <code>wine</code>:</p>
+</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ sudo dpkg --add-architecture i386
+$ sudo apt update
+$ sudo apt install wine64 wine32
+<span style="color:#f92672">(</span>...<span style="color:#f92672">)</span>
+$ wine --version
+wine-5.0 <span style="color:#f92672">(</span>Ubuntu 5.0-3ubuntu1<span style="color:#f92672">)</span>
+</code></pre></div><ol start="5">
+<li>Search on Google for the  Kindle app for Windows. You need version 1.26 or <strong>earlier</strong>. Install it using wine:</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ wine kindleforpc-installer-1.15.43061.exe
+</code></pre></div><p>Run the Kindle app and register it with your Amazon account. You should be able to access your Kindle library without problems.</p>
+<ol start="6">
+<li>Download the most recent version of Python 2.7 <strong>for Windows</strong> from <a href="https://www.python.org/downloads/">Python.org</a>. Install it using wine:</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ wine msiexec /i python-2.7.18.msi
+</code></pre></div><ol start="7">
+<li>Download a <a href="http://www.voidspace.org.uk/python/modules.shtml#pycrypto">Windows installer for PyCrypto</a> for Python 2.7. Install it using wine. (If you installed a 32-bit version of Python, use a 32-bit version of Pycrypto.)</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ wine pycrypto-2.6.win32-py2.7.exe
+</code></pre></div><ol start="8">
+<li>In the Linux terminal, naviagate to the folder where your <code>kindlekey.py</code> file resides. Then open a Windows shell using wine, and run kindlekey.py:</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">~/Downloads/DeDRM/original/DeDRM_tools_6.8.0/DeDRM_Plugin$ wine cmd.exe
+Microsoft Windows 6.1.7601
+
+D:<span style="color:#f92672">(</span>...<span style="color:#f92672">)</span> <span style="color:#ae81ff">\D</span>eDRM_Plugin&gt;python kindlekey.py
+Using Library AlfCrypto DLL/DYLIB/SO
+searching <span style="color:#66d9ef">for</span> kinfoFiles in C:<span style="color:#ae81ff">\u</span>sers<span style="color:#ae81ff">\(</span>...<span style="color:#f92672">)</span><span style="color:#ae81ff">\L</span>ocal Settings<span style="color:#ae81ff">\A</span>pplication Data
+Found K4PC 1.9+ kinf2011 file: C:<span style="color:#ae81ff">\u</span>sers<span style="color:#ae81ff">\(</span>...<span style="color:#f92672">)</span><span style="color:#ae81ff">\L</span>ocal Settings<span style="color:#ae81ff">\A</span>pplication Data<span style="color:#ae81ff">\A</span>mazon<span style="color:#ae81ff">\K</span>indle<span style="color:#ae81ff">\s</span>torage<span style="color:#ae81ff">\.</span>kinf2011
+Decrypted key file using IDString <span style="color:#e6db74">&#39;0&#39;</span> and UserName <span style="color:#e6db74">&#39;xxxxxxxxxx&#39;</span>
+
+D:<span style="color:#f92672">(</span>...<span style="color:#f92672">)</span> <span style="color:#ae81ff">\D</span>eDRM_Plugin&gt; exit
+</code></pre></div><ol start="9">
+<li>
+<p>You should now have a file named <code>kindlekey1.k4i</code> in your directory. Open Calibre, click on the Preferences button. Navigate to Plugins/File Type. Locate the DeDRM plugin, and click the &lsquo;Customize Plugin&rsquo; button and then click on <code>Kindle for Mac/PC ebooks</code>. Import the key into the DeDRM plugin and restart Calibre.</p>
+</li>
+<li>
+<p>Locate your books inside the wine installation.  Wine stores the Windows installation under <code>~/.wine</code>. The Kindle books are usually located in <code>~/.wine/drive_c/users/[your username]/My Documents/My Kindle Content</code>.` I suggest you create a link to your Linux home directory.</p>
+</li>
+</ol>
+<p>You can now import books from your Kindle directory into Calibre, and make a DRM-free backup copy.</p>
+<p><em>Disclaimer</em>:  This instructions are intended for making a backup copy of your Kindle library, my intention is not to encourage piracy in any way.</p>
+
+        </div>
+    </article>
+
+
+        </div>
+        <footer class="footer fixed inset-x-0 bottom-0 w-full bg-black text-gray-100 text-sm">
+    <div class="container max-w-screen-md mx-auto pt-4 py-4">
+        The footer.
+    </div>
+</footer>
+
+    </body>
+</html>

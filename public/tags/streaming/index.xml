@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>streaming on code.zoia.org</title>
+    <link>https://code.zoia.org/tags/streaming/</link>
+    <description>Recent content in streaming on code.zoia.org</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 03 Mar 2014 00:00:00 +0000</lastBuildDate><atom:link href="https://code.zoia.org/tags/streaming/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Why is a Lightning cable required for CarPlay</title>
+      <link>https://code.zoia.org/2014/03/lightning-cable-required-for-carplay/</link>
+      <pubDate>Mon, 03 Mar 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://code.zoia.org/2014/03/lightning-cable-required-for-carplay/</guid>
+      <description>Wondering why CarPlay requires your iPhone to be conected via a Lightning cable? Engadget gives a hint.
+ the CarPlay connection is based on the H.264 video protocol, and sends user input from the touchscreen back to your iDevice
+ </description>
+    </item>
+    
+    <item>
+      <title>Why is a Lightning cable required for CarPlay</title>
+      <link>https://code.zoia.org/post/2014/03/lightning-cable-required-for-carplay/</link>
+      <pubDate>Mon, 03 Mar 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://code.zoia.org/post/2014/03/lightning-cable-required-for-carplay/</guid>
+      <description>Wondering why CarPlay requires your iPhone to be conected via a Lightning cable? Engadget gives a hint.
+ the CarPlay connection is based on the H.264 video protocol, and sends user input from the touchscreen back to your iDevice
+ </description>
+    </item>
+    
+  </channel>
+</rss>

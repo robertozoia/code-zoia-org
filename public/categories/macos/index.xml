@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>macOS on code.zoia.org</title>
+    <link>https://code.zoia.org/categories/macos/</link>
+    <description>Recent content in macOS on code.zoia.org</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 05 Nov 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://code.zoia.org/categories/macos/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Connecting to Public Wifi in MacOS Catalina</title>
+      <link>https://code.zoia.org/2019/connecting-to-public-wifi-in-macos-catalina/</link>
+      <pubDate>Tue, 05 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://code.zoia.org/2019/connecting-to-public-wifi-in-macos-catalina/</guid>
+      <description>After upgrading to MacOS Catalina, I could no longer connect to open WiFI networks, specifically hotel networks and coffee shops. Previously, when connecting to one of these networks, a dialog would appear to ask for confirmation, a username/password combination, etc. No longer with Catalina.
+After some extensive searching on the internet, the solution I found is launching the Captive Network Assistant manually. I wrote a small bash script to launch it from the command line on a terminal window:</description>
+    </item>
+    
+    <item>
+      <title>Connecting to Public Wifi in MacOS Catalina</title>
+      <link>https://code.zoia.org/post/2019/connecting-to-public-wifi-in-macos-catalina/</link>
+      <pubDate>Tue, 05 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://code.zoia.org/post/2019/connecting-to-public-wifi-in-macos-catalina/</guid>
+      <description>After upgrading to MacOS Catalina, I could no longer connect to open WiFI networks, specifically hotel networks and coffee shops. Previously, when connecting to one of these networks, a dialog would appear to ask for confirmation, a username/password combination, etc. No longer with Catalina.
+After some extensive searching on the internet, the solution I found is launching the Captive Network Assistant manually. I wrote a small bash script to launch it from the command line on a terminal window:</description>
+    </item>
+    
+  </channel>
+</rss>

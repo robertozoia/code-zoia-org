@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>static blog generators on code.zoia.org</title>
+    <link>https://code.zoia.org/tags/static-blog-generators/</link>
+    <description>Recent content in static blog generators on code.zoia.org</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 20 Feb 2014 00:00:00 +0000</lastBuildDate><atom:link href="https://code.zoia.org/tags/static-blog-generators/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Blog migrated to Pelican</title>
+      <link>https://code.zoia.org/2014/02/blog-migrated-to-pelican/</link>
+      <pubDate>Thu, 20 Feb 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://code.zoia.org/2014/02/blog-migrated-to-pelican/</guid>
+      <description>A year ago I started developing a static blogging engine called Ristretto. It was written in Python, used markdown files as input, Jinja2 for templating, and generated static html files on my web server. Some weeks later, I migrated my main blog (zoia.org) and this blog from Wordpress to my new blogging platform.
+Compared to writing in Wordpress, I enjoyed the new platform a lot. Over 2013 I kept adding functionality to Ristretto.</description>
+    </item>
+    
+    <item>
+      <title>Blog migrated to Pelican</title>
+      <link>https://code.zoia.org/post/2014/02/blog-migrated-to-pelican/</link>
+      <pubDate>Thu, 20 Feb 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://code.zoia.org/post/2014/02/blog-migrated-to-pelican/</guid>
+      <description>A year ago I started developing a static blogging engine called Ristretto. It was written in Python, used markdown files as input, Jinja2 for templating, and generated static html files on my web server. Some weeks later, I migrated my main blog (zoia.org) and this blog from Wordpress to my new blogging platform.
+Compared to writing in Wordpress, I enjoyed the new platform a lot. Over 2013 I kept adding functionality to Ristretto.</description>
+    </item>
+    
+  </channel>
+</rss>

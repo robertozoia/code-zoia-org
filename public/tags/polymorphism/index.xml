@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>polymorphism on code.zoia.org</title>
+    <link>https://code.zoia.org/tags/polymorphism/</link>
+    <description>Recent content in polymorphism on code.zoia.org</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 15 Apr 2011 00:00:00 +0000</lastBuildDate><atom:link href="https://code.zoia.org/tags/polymorphism/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Java Programming 101</title>
+      <link>https://code.zoia.org/2011/04/15/java-programming-101/</link>
+      <pubDate>Fri, 15 Apr 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://code.zoia.org/2011/04/15/java-programming-101/</guid>
+      <description>Releyendo unos posts antiguos de otro blog, encontré unos apuntes que escribí el 2006 para complementar las clases de Programación Java que dicté en la Facultad de Ingeniería de la Universidad de Piura en Lima. Los vuelvo a publicar por si sirven a otros.
+Los apuntes están publicados bajo una licencia Creative Commons Attribution-ShareAlike 2.5. Se pueden crear trabajos derivados, copiar, compartir, etc., mientras se respete esa licencia. Si alguno quiere los archivos originales para modificarlos, se los puedo enviar.</description>
+    </item>
+    
+    <item>
+      <title>Java Programming 101</title>
+      <link>https://code.zoia.org/post/2011/04/15/java-programming-101/</link>
+      <pubDate>Fri, 15 Apr 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://code.zoia.org/post/2011/04/15/java-programming-101/</guid>
+      <description>Releyendo unos posts antiguos de otro blog, encontré unos apuntes que escribí el 2006 para complementar las clases de Programación Java que dicté en la Facultad de Ingeniería de la Universidad de Piura en Lima. Los vuelvo a publicar por si sirven a otros.
+Los apuntes están publicados bajo una licencia Creative Commons Attribution-ShareAlike 2.5. Se pueden crear trabajos derivados, copiar, compartir, etc., mientras se respete esa licencia. Si alguno quiere los archivos originales para modificarlos, se los puedo enviar.</description>
+    </item>
+    
+  </channel>
+</rss>

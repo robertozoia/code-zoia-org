@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2017s on code.zoia.org</title>
+    <link>https://code.zoia.org/2017/</link>
+    <description>Recent content in 2017s on code.zoia.org</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 01 Oct 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://code.zoia.org/2017/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Infocom Text Games on MacOs</title>
+      <link>https://code.zoia.org/2017/infocom-games-on-macos/</link>
+      <pubDate>Mon, 01 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://code.zoia.org/2017/infocom-games-on-macos/</guid>
+      <description>I played lot of Infocom text games when I was a kid. I remember drawing maps by hand, and inmersing myself in the stories. (There was no internet, so cheats came only from friends.)</description>
+    </item>
+    
+    <item>
+      <title>Python Whatsapp Client Blues</title>
+      <link>https://code.zoia.org/2017/python-whatsapp-blues/</link>
+      <pubDate>Tue, 19 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://code.zoia.org/2017/python-whatsapp-blues/</guid>
+      <description>I had the idea to code a simple script in Python that would notify of the day&amp;rsquo;s birthdays to a Whatsapp number or a Whatsapp group.
+WhatsApp has no public API (that I&amp;rsquo;m aware of&amp;hellip;) I spent some time with YowSup, which didn&amp;rsquo;t work with the examples of their own page. After applying some changes suggested in the YowSup forums, I was able to register my cel number and obtain a password for the account.</description>
+    </item>
+    
+    <item>
+      <title>Replacing Your Parrot AR Drone Blades (Propellers)</title>
+      <link>https://code.zoia.org/2017/replacing-parrot-ar-drone-propeller-blades/</link>
+      <pubDate>Tue, 10 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://code.zoia.org/2017/replacing-parrot-ar-drone-propeller-blades/</guid>
+      <description>The Parrot AR Drone has a total of four blades (or propellers&amp;hellip;). Note that not all blades are equal. Each blade has a letter printed near the shaft hole. Two blades are labeled &amp;ldquo;A&amp;rdquo;, and the other two are labeled &amp;ldquo;C&amp;rdquo;.
+While replacing the blades is pretty straightforward, the critical step is getting the blades in the right order. Otherwise, your drone won&amp;rsquo;t take off. (It will roll over one side.</description>
+    </item>
+    
+  </channel>
+</rss>

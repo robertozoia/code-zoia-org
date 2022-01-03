@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html><head>
+    
+    
+        
+    
+    <title>
+        code.zoia.org
+    </title>
+    
+    <meta charset="utf-8">
+    <meta name="generator" content="Hugo 0.91.2" />
+     <meta property="og:title" content="code.zoia.org" />
+<meta property="og:description" content="" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://code.zoia.org/" />
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href='/css/styles.css'>
+    <link rel="stylesheet" type="text/css" href='/css/syntax.css'>
+</head>
+<body>
+        <div class="container max-w-screen-md mx-auto"><header class="container subpixel-antialiased">
+    <nav class="flex flex-wrap w-full py-4 md:py-0 text-lg text-gray-70 bg-white">
+        <ul class="text-base
+                   text-gray-300
+                   pt-4
+                   md:flex
+                   md:pt-0
+                   sans-serif
+                   uppercase
+                   "
+        >
+            <li class="md:pt-3
+                py-2
+                block"><span class="
+                                    font-medium
+                                    text-lg
+                                    text-gray-500"
+                       >code</span><span
+                            class="font-medium
+                                   text-logoleft
+                                   text-lg"
+                        >zoia</span><span
+                             class="
+                                    text-lg
+                                    font-medium
+                                    text-gray-500"
+                       >org</span></li>
+            
+                <li><a class="text-sm md:p-4 py-2 block hover:underline" href="/about/">About</a></li>
+            
+                <li><a class="text-sm md:p-4 py-2 block hover:underline" href="/archive/">Archive</a></li>
+            
+                <li><a class="text-sm md:p-4 py-2 block hover:underline" href="/">Home</a></li>
+            
+
+        </ul>
+    </nav>
+</header>
+</div>
+        <div class="content container max-w-screen-md mx-auto mt-8 pb-16">
+
+    
+        <article class="pb-4 mb-12 border-b">
+            <div><h2 class="text-3xl font-sans font-normal"><a href="https://code.zoia.org/post/20210408-doom-emacs-hunspell-macos/">Doom Emacs, Hunspell, and MacOs</a></h2></div>
+            <div class="text-sm text-gray-500">April 8, 2021</div>
+            <div class="mt-3 font-sans font-light text-gray-900">
+                <p>Doom Emacs uses <a href="https://gitlab.com/ideasman42/emacs-spell-fu"><code>spell-fu</code></a> as the default highlighter for spellchecking. <code>spell-fu</code> can use several options like <code>aspell</code>, <code>hunspell</code>, <code>enchant</code>, etc. for the actual spellchecking. I prefer to use <a href="https://hunspell.github.io/">Hunspell</a>.</p>
+<p>The process to install and configure <code>hunspell</code> to work for Doom Emacs is simple:</p>
+<ul>
+<li>Use <a href="https://brew.sh/">homebrew</a> to install <code>hunspell</code>:</li>
+</ul>
+<!--listend-->
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ brew install hunspell
+</code></pre></div><ul>
+<li><code>hunspell</code> doesn&rsquo;t install dictionaries. Download them from the <a href="http://wordlist.aspell.net/dicts/">aspell</a> webpage and store them in <code>~/Library/Spelling</code>. Check that <code>hunspell</code> is recognizing your dictionaries.</li>
+</ul>
+<!--listend-->
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ hunspell -D
+</code></pre></div><ul>
+<li>Tell Doom Emacs you are using <code>hunspell</code> in your <code>init.el</code> file:</li>
+</ul>
+<!--listend-->
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-emacs-lisp" data-lang="emacs-lisp">(<span style="color:#f92672">...</span>)
+:checkers
+    (spell +hunspell)       <span style="color:#75715e">; tasing you for misspelling mispelling</span>
+</code></pre></div><ul>
+<li>
+<p>While Doom will take care of telling Emacs which spell checker you are using, <em>you need to specify a default dictionary</em>. Otherwise you will go crazy wondering why <code>spell-fu</code> is marking every word in your documents as incorrect. (This applies not only for <code>hunspell</code> but also for <code>aspell</code> and <code>enchant</code>.)</p>
+<p>You can get a list of valid dictionary names by changing the dictionary manually within Emacs, i.e. <code>M-x</code> <code>ispell-change-dictionary</code>.</p>
+</li>
+</ul>
+<!--listend-->
+<pre tabindex="0"><code class="language-list" data-lang="list">(setq ispell-dictionary &quot;english&quot;)
+</code></pre>
+            </div>
+        </article>
+        
+
+    
+        <article class="pb-4 mb-12 border-b">
+            <div><h2 class="text-3xl font-sans font-normal"><a href="https://code.zoia.org/post/remove-grub-from-macos-boot-partition/">Remove GRUB from MacOS boot partition</a></h2></div>
+            <div class="text-sm text-gray-500">November 6, 2020</div>
+            <div class="mt-3 font-sans font-light text-gray-900">
+                <p>I&rsquo;ve got Linux on an external SSD drive which I can boot from my Macbook Pro using <code>Command</code>-<code>D</code> while powering up to select Linux as the boot drive.</p>
+<p>The only glitch is that when installing Linux, by mistake I installed GRUB (Linux boot loader) on my Mac root partition. The easiest way to fix this is to boot the machine into repair mode using <code>Command</code>-<code>R</code> and reinstall MacOS. This won&rsquo;t erase your data or applications, just reinstall the operating system and rewrite the boot partition. (The process takes about an hour, so plan ahead.)</p>
+
+            </div>
+        </article>
+        
+
+    
+        <article class="pb-4 mb-12 border-b">
+            <div><h2 class="text-3xl font-sans font-normal"><a href="https://code.zoia.org/post/is-it-worth-the-time/">Is it Worth the Time?</a></h2></div>
+            <div class="text-sm text-gray-500">September 1, 2020</div>
+            <div class="mt-3 font-sans font-light text-gray-900">
+                <p>I&rsquo;ll copy this <code>xkcd</code> comic here so I can find when I fall into another Emacs org-mode time sink.</p>
+<figure><img src="/images/2020/is_it_worth_the_time_2x.png"/>
+</figure>
+
+<p>Source: <a href="https://xkcd.com/1205/">https://xkcd.com/1205/</a></p>
+
+            </div>
+        </article>
+        
+
+    
+        <article class="pb-4 mb-12 border-b">
+            <div><h2 class="text-3xl font-sans font-normal"><a href="https://code.zoia.org/post/sandersons-laws-of-magic/">Sanderson&rsquo;s Laws of Magic</a></h2></div>
+            <div class="text-sm text-gray-500">August 30, 2020</div>
+            <div class="mt-3 font-sans font-light text-gray-900">
+                <p>Source: <a href="https://www.brandonsanderson.com/sandersons-first-law/">https://www.brandonsanderson.com/sandersons-first-law/</a></p>
+<h2 id="sanderson-s-first-law-of-magic">Sanderson&rsquo;s First Law of Magic</h2>
+<blockquote>
+<p>An author&rsquo;s ability to solve conflict with magic is DIRECTLY PROPORTIONAL to how well the reader understands said magic.</p>
+</blockquote>
+<p>Books with <em>Soft Magic</em> systems are books where magic is included in order to establish a sense of wonder and give the setting a fantastical feel. Really good writers of soft magic systems <em>very rarely</em> use their magic to solve problems in their books.</p>
+<p>So, the rule for soft magic systems is to use the magic for ambiance but never for plot.</p>
+<p>With <em>Hard Magic</em>, the author explicitly describes the rules of magic. More, the magic itself is a character. By showing off its laws and rules, the author provides twists, worldbuilding, and characterization.</p>
+<p>In this context, you can use magic to solve problems because the reader understands how magic works.</p>
+<h2 id="sanderson-s-second-law-of-magic">Sanderson&rsquo;s Second Law of Magic</h2>
+<blockquote>
+<p>Limitations &gt; Powers</p>
+</blockquote>
+<p>What&rsquo;s important to what heroes are is not what they can do, but what they have trouble doing.
+When designing a magic system, it&rsquo;s very difficult to come up with a magical power that&rsquo;s truly original. However, you can be original with the limitation.
+Example: in <em>The Wheel of Time</em> fantasy series, practitioners of magic draw forth &ldquo;threads&rdquo; of the Aristotelian elements &ndash;fire, earth, water, air, and spirit&ndash; and then &ldquo;weave&rdquo; the different powers into complex patterns, which then accomplish a goal. The limitation of the magic is that its practitioners must use skill and knowledge, and take time to create what they&rsquo;re making.</p>
+<p>Limitations on a magic system do several things:</p>
+<ul>
+<li><em>Struggle</em>, because it forces the characters to work for their goals. They have to be more clever to overcome their problems. They need to work harder. All this leads to more interesting scenes. The nature of the writing encourages better writing.</li>
+<li>An excellent magic system will increase <em>tension</em>. Superman fighting an enemy with kryptonite is far more tense than Superman just fighting an enemy.</li>
+<li>Limitations force you, as a writer, to create more <em>depth</em> to your world and characters. In this sense, even outside the fantasy genre limitations are more important than abilities.</li>
+</ul>
+<h3 id="different-kinds-of-limiting-factors-of-magic-systems">Different kinds of limiting factors of magic systems</h3>
+<ul>
+<li><em>Limitations</em>. There are things that, for one reason or another, the magic system simply cannot do. Every magic has basic limitations, defined as the limited scope of the power. (i.e., Superman can&rsquo;t see through lead.)</li>
+</ul>
+<p>Sanderson suggests that limitations be more encompassing than simple parameters.</p>
+<ul>
+<li><em>Weaknesses</em> are things that, rather than being things the power cannot do, enemies can exploit. In contrast to a limitation, a weakness lives your caracter vulnerable. (Again, the obvious example is kryptonite.)</li>
+<li><em>Costs</em>. Using magic or being associated with it has a cost. Costs can be abstract (in the Wheel of Times, men who weave magic end up going crazy), or concrete (you need a certain quantity of mana or something to make certain spell work).</li>
+<li><em>Others</em>. These definitions are about how you approach certain aspects of your magic system, and how you don&rsquo;t allow yourself to take easy answers.
+<ul>
+<li>How does one gain access to magic? Stardard ways: innate magic and learned magic.</li>
+<li>How is the magic powered? Mitigate the breaking of physics law by preserving of the laws of thermodynamics. Energy to power the magic has to come from somewhere.</li>
+<li>How often can the magic be used? Do you need special implements (wands&hellip;) or a special state of mind?</li>
+</ul>
+</li>
+</ul>
+<p>The point is not to write more complex plots but to tell better stories. What your characters have trouble accomplishing in a plot is going to be far more interesting than what they can do easily.</p>
+<h2 id="sanderson-s-third-law-of-magic">Sanderson&rsquo;s Third Law of Magic</h2>
+<blockquote>
+<p>Expand what you already have before you add something new.</p>
+</blockquote>
+<p>This law challenges the writer to create deep worldbuilding instead of just wide worldbuilding. Even if one can enjoy stories with massive worldbuilding, intrincate worlds, and clever use of magic, you can make the story boring by overburdening it with too much expository worldbuilding.
+Often great storytelling happens when a thoughtful writer changes one or two things about what we know, then extrapolates purposefully through all of the ramifications of that change.
+Variants of this: one truly evil villain usually works better than lots of mediocre villains.</p>
+<p>Three useful directions where you can expand magic</p>
+<ul>
+<li><em>Extrapolate</em>. Extrapolation is about asking &ldquo;what happens when&rdquo; questions. How do the changes you&rsquo;ve made affect the world as a whole? The changes should be aligned with the story goal&rsquo;s and length. Epic fantasy may touch history and economics. An urban fantasy may better focus just on one specific factor.</li>
+<li><em>Interconnect</em>. Sometimes this law can go too far. Having large list of powers can help create a more unique experience for your storytelling.</li>
+</ul>
+<p>Try tying your powers, cultures and themes together. Tie them thematically, and ask yourself how they play into the themes of your novel. This will help you worldbuild and expand, instead of adding.</p>
+<ul>
+<li><em>Streamline</em>. Look over your cultures, magics, and even characters and ask yourself, &ldquo;Where can I combine these?&rdquo;</li>
+</ul>
+<p>Conclusion: expand, don&rsquo;t add.</p>
+
+            </div>
+        </article>
+        
+
+    
+        <article class="pb-4 mb-12 border-b">
+            <div><h2 class="text-3xl font-sans font-normal"><a href="https://code.zoia.org/post/ubuntu-16-04-and-python-3-6/">Ubuntu 16.04 and Python 3.6+</a></h2></div>
+            <div class="text-sm text-gray-500">November 9, 2021</div>
+            <div class="mt-3 font-sans font-light text-gray-900">
+                <p>I was recently upgrading a system from Django 2.2 to 3.2. Django 3.2 requires Python 3.6+. This system is running on a cloud instance of Ubuntu 16.04, which only supports Python up to 3.5.</p>
+<p>Upgrading the server to Ubuntu 18.04 or 20.04 is out of the question. (Just the thought of someone typing `do-release-upgrade` in a production server makes me shiver&hellip;) Also, the system is from a pre-docker era, so no luck there.</p>
+<p>The cleanest way to run a more recent Python version is to install `<a href="https://github.com/pyenv/pyenv">pyenv`</a>. `pyenv` is a Python version management system which takes care of downloading, compiling, and installing the Python version you need without messing with the system configuration.</p>
+<p>Python <a href="https://docs.python.org/release/3.10.0/whatsnew/changelog.html#python-3-10-0-final">now requires OpenSSL version 1.1.1+</a>, and Ubuntu 16.04 only provides OpenSSL up to version 1.0. So, if you try to install, for example, Python 3.10.0 using `pyenv`, you&rsquo;ll get an error complaining about OpenSSL. (The error is actually silent. You&rsquo;ll need to run `pyenv` with the verbose/-v in order to see the output.)</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ pyenv install -v 3.10.0
+<span style="color:#f92672">(</span>Several lines and minutes later...<span style="color:#f92672">)</span>
+ERROR: The Python ssl extension was not compiled. Missing
+the OpenSSL lib?
+</code></pre></div><p>To fix this:</p>
+<ol>
+<li>
+<p>Install OpenSSL 1.1.1 from <a href="https://www.openssl.org/source/">source</a>.</p>
+<ul>
+<li>Compile OpenSSL and install it.</li>
+</ul>
+<pre tabindex="0"><code>$ wget https://www.openssl.org/source/openssl-1.1.1l.tar.gz
+$ tar xvfz openssl-1.1.1l.tar.gz
+$ cd openssl-1-1-1l
+$ ./config
+$ make
+$ sudo make install
+</code></pre><ul>
+<li>Add <code>/usr/local/lib</code> and <code>/usr/local/local/lib64</code> to your library path in <code>.bashrc</code> (or whatever your system uses) and reload your shell using <code>$ exec $SHELL</code>.</li>
+</ul>
+<pre tabindex="0"><code>export LD_LIBRARY_PATH=/usr/local/lib/:/usr/local/lib64:$LD_LIBRARY_PATH
+</code></pre><ul>
+<li>Check that OpenSSL installed OK:</li>
+</ul>
+<pre tabindex="0"><code>$ openssl version
+OpenSSL 1.1.1l 24 Aug 2021
+</code></pre></li>
+<li>
+<p>Tell <code>pyenv</code> where the OpenSSL files are located so the compiler and linker can find them. Then run <code>pyenv</code> to install the desired Python version.</p>
+</li>
+</ol>
+<pre tabindex="0"><code>$ export LDFLAGS=&quot;-L/usr/local/lib/ -L/usr/local/lib64/&quot;
+$ export CPPFLAGS=&quot;-I/usr/local/include -I/usr/local/include/openssl&quot;
+$ export PYTHON_CONFIGURE_OPTS=&quot;--enable-shared&quot;
+$ pyenv install -v 3.10.0
+</code></pre><p>You should have now a working Python 3.10.0 that you can use with <code>pyenv</code>.</p>
+
+            </div>
+        </article>
+        
+    
+    <ul class="pagination pagination-default">
+      <li class="page-item">
+        <a href="/" aria-label="First" class="page-link" role="button"><span aria-hidden="true">&laquo;&laquo;</span></a>
+      </li>
+      <li class="page-item">
+        <a href="/" aria-label="Previous" class="page-link" role="button"><span aria-hidden="true">&laquo;</span></a>
+      </li>
+      <li class="page-item">
+        <a href="/" aria-label="Page 1" class="page-link" role="button">1</a>
+      </li>
+      <li class="page-item active">
+        <a aria-current="page" aria-label="Page 2" class="page-link" role="button">2</a>
+      </li>
+      <li class="page-item">
+        <a href="/page/3/" aria-label="Page 3" class="page-link" role="button">3</a>
+      </li>
+      <li class="page-item">
+        <a href="/page/4/" aria-label="Page 4" class="page-link" role="button">4</a>
+      </li>
+      <li class="page-item">
+        <a href="/page/5/" aria-label="Page 5" class="page-link" role="button">5</a>
+      </li>
+      <li class="page-item">
+        <a href="/page/3/" aria-label="Next" class="page-link" role="button"><span aria-hidden="true">&raquo;</span></a>
+      </li>
+      <li class="page-item">
+        <a href="/page/23/" aria-label="Last" class="page-link" role="button"><span aria-hidden="true">&raquo;&raquo;</span></a>
+      </li>
+    </ul>
+
+        </div>
+        <footer class="footer fixed inset-x-0 bottom-0 w-full bg-black text-gray-100 text-sm">
+    <div class="container max-w-screen-md mx-auto pt-4 py-4">
+        The footer.
+    </div>
+</footer>
+
+    </body>
+</html>

@@ -1,0 +1,785 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on code.zoia.org</title>
+    <link>https://code.zoia.org/tags/</link>
+    <description>Recent content in Tags on code.zoia.org</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 09 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://code.zoia.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Python, pyenv, openssl</title>
+      <link>https://code.zoia.org/tags/python-pyenv-openssl/</link>
+      <pubDate>Tue, 09 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://code.zoia.org/tags/python-pyenv-openssl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>emacs</title>
+      <link>https://code.zoia.org/tags/emacs/</link>
+      <pubDate>Thu, 03 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://code.zoia.org/tags/emacs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>email</title>
+      <link>https://code.zoia.org/tags/email/</link>
+      <pubDate>Thu, 03 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://code.zoia.org/tags/email/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mbsync</title>
+      <link>https://code.zoia.org/tags/mbsync/</link>
+      <pubDate>Thu, 03 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://code.zoia.org/tags/mbsync/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mu4e</title>
+      <link>https://code.zoia.org/tags/mu4e/</link>
+      <pubDate>Thu, 03 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://code.zoia.org/tags/mu4e/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>drm</title>
+      <link>https://code.zoia.org/tags/drm/</link>
+      <pubDate>Sat, 19 Sep 2020 12:52:15 -0500</pubDate>
+      
+      <guid>https://code.zoia.org/tags/drm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>magic</title>
+      <link>https://code.zoia.org/tags/magic/</link>
+      <pubDate>Sun, 30 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://code.zoia.org/tags/magic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sanderson</title>
+      <link>https://code.zoia.org/tags/sanderson/</link>
+      <pubDate>Sun, 30 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://code.zoia.org/tags/sanderson/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>writing</title>
+      <link>https://code.zoia.org/tags/writing/</link>
+      <pubDate>Sun, 30 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://code.zoia.org/tags/writing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hugo</title>
+      <link>https://code.zoia.org/tags/hugo/</link>
+      <pubDate>Sun, 16 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://code.zoia.org/tags/hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>static-blogging</title>
+      <link>https://code.zoia.org/tags/static-blogging/</link>
+      <pubDate>Sun, 16 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://code.zoia.org/tags/static-blogging/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>python</title>
+      <link>https://code.zoia.org/tags/python/</link>
+      <pubDate>Wed, 06 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://code.zoia.org/tags/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>catalina</title>
+      <link>https://code.zoia.org/tags/catalina/</link>
+      <pubDate>Tue, 05 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://code.zoia.org/tags/catalina/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>wifi</title>
+      <link>https://code.zoia.org/tags/wifi/</link>
+      <pubDate>Tue, 05 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://code.zoia.org/tags/wifi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>parrot ar</title>
+      <link>https://code.zoia.org/tags/parrot-ar/</link>
+      <pubDate>Tue, 10 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://code.zoia.org/tags/parrot-ar/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>daring fireball</title>
+      <link>https://code.zoia.org/tags/daring-fireball/</link>
+      <pubDate>Mon, 01 Feb 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://code.zoia.org/tags/daring-fireball/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>markdown</title>
+      <link>https://code.zoia.org/tags/markdown/</link>
+      <pubDate>Mon, 15 Sep 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://code.zoia.org/tags/markdown/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ios</title>
+      <link>https://code.zoia.org/tags/ios/</link>
+      <pubDate>Thu, 07 Aug 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://code.zoia.org/tags/ios/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>api</title>
+      <link>https://code.zoia.org/tags/api/</link>
+      <pubDate>Tue, 17 Jun 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://code.zoia.org/tags/api/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>metal</title>
+      <link>https://code.zoia.org/tags/metal/</link>
+      <pubDate>Tue, 17 Jun 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://code.zoia.org/tags/metal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>opengl</title>
+      <link>https://code.zoia.org/tags/opengl/</link>
+      <pubDate>Tue, 17 Jun 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://code.zoia.org/tags/opengl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>_why</title>
+      <link>https://code.zoia.org/tags/_why/</link>
+      <pubDate>Thu, 05 Jun 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://code.zoia.org/tags/_why/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>games</title>
+      <link>https://code.zoia.org/tags/games/</link>
+      <pubDate>Thu, 05 Jun 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://code.zoia.org/tags/games/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>risks</title>
+      <link>https://code.zoia.org/tags/risks/</link>
+      <pubDate>Thu, 05 Jun 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://code.zoia.org/tags/risks/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>heartbleed</title>
+      <link>https://code.zoia.org/tags/heartbleed/</link>
+      <pubDate>Sun, 13 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://code.zoia.org/tags/heartbleed/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>openssl</title>
+      <link>https://code.zoia.org/tags/openssl/</link>
+      <pubDate>Sun, 13 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://code.zoia.org/tags/openssl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>security</title>
+      <link>https://code.zoia.org/tags/security/</link>
+      <pubDate>Sun, 13 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://code.zoia.org/tags/security/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ssl</title>
+      <link>https://code.zoia.org/tags/ssl/</link>
+      <pubDate>Sun, 13 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://code.zoia.org/tags/ssl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>F#</title>
+      <link>https://code.zoia.org/tags/f#/</link>
+      <pubDate>Tue, 08 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://code.zoia.org/tags/f#/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>garbage collection</title>
+      <link>https://code.zoia.org/tags/garbage-collection/</link>
+      <pubDate>Tue, 08 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://code.zoia.org/tags/garbage-collection/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mono</title>
+      <link>https://code.zoia.org/tags/mono/</link>
+      <pubDate>Tue, 08 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://code.zoia.org/tags/mono/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cloud services</title>
+      <link>https://code.zoia.org/tags/cloud-services/</link>
+      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://code.zoia.org/tags/cloud-services/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>web hosting</title>
+      <link>https://code.zoia.org/tags/web-hosting/</link>
+      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://code.zoia.org/tags/web-hosting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>LinkedIn</title>
+      <link>https://code.zoia.org/tags/linkedin/</link>
+      <pubDate>Thu, 27 Mar 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://code.zoia.org/tags/linkedin/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Matt Mullenweg</title>
+      <link>https://code.zoia.org/tags/matt-mullenweg/</link>
+      <pubDate>Thu, 27 Mar 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://code.zoia.org/tags/matt-mullenweg/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Reid Hoffman</title>
+      <link>https://code.zoia.org/tags/reid-hoffman/</link>
+      <pubDate>Thu, 27 Mar 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://code.zoia.org/tags/reid-hoffman/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>wordpress</title>
+      <link>https://code.zoia.org/tags/wordpress/</link>
+      <pubDate>Thu, 27 Mar 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://code.zoia.org/tags/wordpress/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>clojure</title>
+      <link>https://code.zoia.org/tags/clojure/</link>
+      <pubDate>Wed, 19 Mar 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://code.zoia.org/tags/clojure/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>rich hicks</title>
+      <link>https://code.zoia.org/tags/rich-hicks/</link>
+      <pubDate>Wed, 19 Mar 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://code.zoia.org/tags/rich-hicks/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>simplicity</title>
+      <link>https://code.zoia.org/tags/simplicity/</link>
+      <pubDate>Wed, 19 Mar 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://code.zoia.org/tags/simplicity/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>free software</title>
+      <link>https://code.zoia.org/tags/free-software/</link>
+      <pubDate>Tue, 04 Mar 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://code.zoia.org/tags/free-software/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>game programming</title>
+      <link>https://code.zoia.org/tags/game-programming/</link>
+      <pubDate>Tue, 04 Mar 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://code.zoia.org/tags/game-programming/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mechner</title>
+      <link>https://code.zoia.org/tags/mechner/</link>
+      <pubDate>Tue, 04 Mar 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://code.zoia.org/tags/mechner/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>open source</title>
+      <link>https://code.zoia.org/tags/open-source/</link>
+      <pubDate>Tue, 04 Mar 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://code.zoia.org/tags/open-source/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Richard Stallman</title>
+      <link>https://code.zoia.org/tags/richard-stallman/</link>
+      <pubDate>Tue, 04 Mar 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://code.zoia.org/tags/richard-stallman/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>templar</title>
+      <link>https://code.zoia.org/tags/templar/</link>
+      <pubDate>Tue, 04 Mar 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://code.zoia.org/tags/templar/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>carplay</title>
+      <link>https://code.zoia.org/tags/carplay/</link>
+      <pubDate>Mon, 03 Mar 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://code.zoia.org/tags/carplay/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>streaming</title>
+      <link>https://code.zoia.org/tags/streaming/</link>
+      <pubDate>Mon, 03 Mar 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://code.zoia.org/tags/streaming/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>apache</title>
+      <link>https://code.zoia.org/tags/apache/</link>
+      <pubDate>Tue, 25 Feb 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://code.zoia.org/tags/apache/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>baked blogs</title>
+      <link>https://code.zoia.org/tags/baked-blogs/</link>
+      <pubDate>Tue, 25 Feb 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://code.zoia.org/tags/baked-blogs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>blogging</title>
+      <link>https://code.zoia.org/tags/blogging/</link>
+      <pubDate>Tue, 25 Feb 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://code.zoia.org/tags/blogging/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>dropbox</title>
+      <link>https://code.zoia.org/tags/dropbox/</link>
+      <pubDate>Tue, 25 Feb 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://code.zoia.org/tags/dropbox/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pelican</title>
+      <link>https://code.zoia.org/tags/pelican/</link>
+      <pubDate>Tue, 25 Feb 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://code.zoia.org/tags/pelican/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>static blogs</title>
+      <link>https://code.zoia.org/tags/static-blogs/</link>
+      <pubDate>Tue, 25 Feb 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://code.zoia.org/tags/static-blogs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>watcher</title>
+      <link>https://code.zoia.org/tags/watcher/</link>
+      <pubDate>Tue, 25 Feb 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://code.zoia.org/tags/watcher/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>baked blog</title>
+      <link>https://code.zoia.org/tags/baked-blog/</link>
+      <pubDate>Thu, 20 Feb 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://code.zoia.org/tags/baked-blog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ristretto</title>
+      <link>https://code.zoia.org/tags/ristretto/</link>
+      <pubDate>Thu, 20 Feb 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://code.zoia.org/tags/ristretto/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>static blog generators</title>
+      <link>https://code.zoia.org/tags/static-blog-generators/</link>
+      <pubDate>Thu, 20 Feb 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://code.zoia.org/tags/static-blog-generators/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>problem solving</title>
+      <link>https://code.zoia.org/tags/problem-solving/</link>
+      <pubDate>Fri, 27 Sep 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://code.zoia.org/tags/problem-solving/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>information</title>
+      <link>https://code.zoia.org/tags/information/</link>
+      <pubDate>Tue, 04 Jun 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://code.zoia.org/tags/information/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sharing</title>
+      <link>https://code.zoia.org/tags/sharing/</link>
+      <pubDate>Tue, 04 Jun 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://code.zoia.org/tags/sharing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>valve</title>
+      <link>https://code.zoia.org/tags/valve/</link>
+      <pubDate>Tue, 04 Jun 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://code.zoia.org/tags/valve/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>virtual reality</title>
+      <link>https://code.zoia.org/tags/virtual-reality/</link>
+      <pubDate>Tue, 04 Jun 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://code.zoia.org/tags/virtual-reality/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>openerp</title>
+      <link>https://code.zoia.org/tags/openerp/</link>
+      <pubDate>Thu, 09 May 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://code.zoia.org/tags/openerp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>virtualenv</title>
+      <link>https://code.zoia.org/tags/virtualenv/</link>
+      <pubDate>Thu, 09 May 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://code.zoia.org/tags/virtualenv/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>conway&#39;s game of life</title>
+      <link>https://code.zoia.org/tags/conways-game-of-life/</link>
+      <pubDate>Sat, 23 Mar 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://code.zoia.org/tags/conways-game-of-life/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>raspberry pi</title>
+      <link>https://code.zoia.org/tags/raspberry-pi/</link>
+      <pubDate>Sat, 23 Mar 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://code.zoia.org/tags/raspberry-pi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>second crack</title>
+      <link>https://code.zoia.org/tags/second-crack/</link>
+      <pubDate>Mon, 07 Jan 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://code.zoia.org/tags/second-crack/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>php</title>
+      <link>https://code.zoia.org/tags/php/</link>
+      <pubDate>Wed, 06 Jun 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://code.zoia.org/tags/php/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>private lawyer theme</title>
+      <link>https://code.zoia.org/tags/private-lawyer-theme/</link>
+      <pubDate>Wed, 06 Jun 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://code.zoia.org/tags/private-lawyer-theme/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>templatic</title>
+      <link>https://code.zoia.org/tags/templatic/</link>
+      <pubDate>Wed, 06 Jun 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://code.zoia.org/tags/templatic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>wordpress theme</title>
+      <link>https://code.zoia.org/tags/wordpress-theme/</link>
+      <pubDate>Wed, 06 Jun 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://code.zoia.org/tags/wordpress-theme/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>editors</title>
+      <link>https://code.zoia.org/tags/editors/</link>
+      <pubDate>Thu, 15 Dec 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://code.zoia.org/tags/editors/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ide</title>
+      <link>https://code.zoia.org/tags/ide/</link>
+      <pubDate>Thu, 15 Dec 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://code.zoia.org/tags/ide/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>textmate</title>
+      <link>https://code.zoia.org/tags/textmate/</link>
+      <pubDate>Thu, 15 Dec 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://code.zoia.org/tags/textmate/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>bugs</title>
+      <link>https://code.zoia.org/tags/bugs/</link>
+      <pubDate>Thu, 25 Aug 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://code.zoia.org/tags/bugs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>carmack</title>
+      <link>https://code.zoia.org/tags/carmack/</link>
+      <pubDate>Thu, 25 Aug 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://code.zoia.org/tags/carmack/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>code analysis</title>
+      <link>https://code.zoia.org/tags/code-analysis/</link>
+      <pubDate>Thu, 25 Aug 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://code.zoia.org/tags/code-analysis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>debugging</title>
+      <link>https://code.zoia.org/tags/debugging/</link>
+      <pubDate>Thu, 25 Aug 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://code.zoia.org/tags/debugging/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>bundles</title>
+      <link>https://code.zoia.org/tags/bundles/</link>
+      <pubDate>Wed, 25 May 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://code.zoia.org/tags/bundles/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>TM_PYTHON</title>
+      <link>https://code.zoia.org/tags/tm_python/</link>
+      <pubDate>Wed, 25 May 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://code.zoia.org/tags/tm_python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>virtualenvwrapper</title>
+      <link>https://code.zoia.org/tags/virtualenvwrapper/</link>
+      <pubDate>Wed, 25 May 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://code.zoia.org/tags/virtualenvwrapper/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>exceptions</title>
+      <link>https://code.zoia.org/tags/exceptions/</link>
+      <pubDate>Fri, 15 Apr 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://code.zoia.org/tags/exceptions/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>inheritance</title>
+      <link>https://code.zoia.org/tags/inheritance/</link>
+      <pubDate>Fri, 15 Apr 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://code.zoia.org/tags/inheritance/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Java programming</title>
+      <link>https://code.zoia.org/tags/java-programming/</link>
+      <pubDate>Fri, 15 Apr 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://code.zoia.org/tags/java-programming/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>polymorphism</title>
+      <link>https://code.zoia.org/tags/polymorphism/</link>
+      <pubDate>Fri, 15 Apr 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://code.zoia.org/tags/polymorphism/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

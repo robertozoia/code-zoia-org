@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mono on code.zoia.org</title>
+    <link>https://code.zoia.org/tags/mono/</link>
+    <description>Recent content in Mono on code.zoia.org</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 08 Apr 2014 00:00:00 +0000</lastBuildDate><atom:link href="https://code.zoia.org/tags/mono/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Debug 31:  Miguel de Icaza on Mono</title>
+      <link>https://code.zoia.org/2014/04/miguel-de-icaza-on-mono/</link>
+      <pubDate>Tue, 08 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://code.zoia.org/2014/04/miguel-de-icaza-on-mono/</guid>
+      <description>Guy English and Rene Ritchie interview Miguel de Icaza in Episode 31 of Debug. I liked the interview very much, specially from minute 20 on when Miguel talks about functionality and implementation details of the Mono runtime, async calls, garbage collection&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>Debug 31:  Miguel de Icaza on Mono</title>
+      <link>https://code.zoia.org/post/2014/04/miguel-de-icaza-on-mono/</link>
+      <pubDate>Tue, 08 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://code.zoia.org/post/2014/04/miguel-de-icaza-on-mono/</guid>
+      <description>Guy English and Rene Ritchie interview Miguel de Icaza in Episode 31 of Debug. I liked the interview very much, specially from minute 20 on when Miguel talks about functionality and implementation details of the Mono runtime, async calls, garbage collection&amp;hellip;</description>
+    </item>
+    
+  </channel>
+</rss>

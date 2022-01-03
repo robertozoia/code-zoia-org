@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>python on code.zoia.org</title>
+    <link>https://code.zoia.org/tags/python/</link>
+    <description>Recent content in python on code.zoia.org</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 06 Nov 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://code.zoia.org/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Guido van Rossum on Maintainable Code and other things</title>
+      <link>https://code.zoia.org/2019/guido-van-rossum-maintainable-code-and-other-things/</link>
+      <pubDate>Wed, 06 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://code.zoia.org/2019/guido-van-rossum-maintainable-code-and-other-things/</guid>
+      <description>I love Python, so I maybe somewhat biassed about this article on Dropbox’s Blog: Thank You, Guido</description>
+    </item>
+    
+    <item>
+      <title>Guido van Rossum on Maintainable Code and other things</title>
+      <link>https://code.zoia.org/post/2019/guido-van-rossum-maintainable-code-and-other-things/</link>
+      <pubDate>Wed, 06 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://code.zoia.org/post/2019/guido-van-rossum-maintainable-code-and-other-things/</guid>
+      <description>I love Python, so I maybe somewhat biassed about this article on Dropbox’s Blog: Thank You, Guido</description>
+    </item>
+    
+    <item>
+      <title>Configuring Pelican, Dropbox, and automatic blog publishing</title>
+      <link>https://code.zoia.org/2014/02/pelican-dropbox-automatic-blog-regeneration/</link>
+      <pubDate>Tue, 25 Feb 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://code.zoia.org/2014/02/pelican-dropbox-automatic-blog-regeneration/</guid>
+      <description>In this post I will explain how I set up Pelican on a Linux (Ubuntu) server to mantain multiple blogs, using Dropbox for file synchronization, watcher to detect changes in the blog&amp;rsquo;s content and regenerate it , and Apache to serve the resulting files.
+ The blogs&amp;rsquo;s content will reside in a shared Dropbox folder. This is where posts are written in Markdown format (or .rst if you prefer). Pelican template (themes) files will also reside in this Dropbox folder, so you can modifiy your blog&amp;rsquo;s theme if needed without logging into your web server.</description>
+    </item>
+    
+    <item>
+      <title>Configuring Pelican, Dropbox, and automatic blog publishing</title>
+      <link>https://code.zoia.org/post/2014/02/pelican-dropbox-automatic-blog-regeneration/</link>
+      <pubDate>Tue, 25 Feb 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://code.zoia.org/post/2014/02/pelican-dropbox-automatic-blog-regeneration/</guid>
+      <description>In this post I will explain how I set up Pelican on a Linux (Ubuntu) server to mantain multiple blogs, using Dropbox for file synchronization, watcher to detect changes in the blog&amp;rsquo;s content and regenerate it , and Apache to serve the resulting files.
+ The blogs&amp;rsquo;s content will reside in a shared Dropbox folder. This is where posts are written in Markdown format (or .rst if you prefer). Pelican template (themes) files will also reside in this Dropbox folder, so you can modifiy your blog&amp;rsquo;s theme if needed without logging into your web server.</description>
+    </item>
+    
+    <item>
+      <title>Blog migrated to Pelican</title>
+      <link>https://code.zoia.org/2014/02/blog-migrated-to-pelican/</link>
+      <pubDate>Thu, 20 Feb 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://code.zoia.org/2014/02/blog-migrated-to-pelican/</guid>
+      <description>A year ago I started developing a static blogging engine called Ristretto. It was written in Python, used markdown files as input, Jinja2 for templating, and generated static html files on my web server. Some weeks later, I migrated my main blog (zoia.org) and this blog from Wordpress to my new blogging platform.
+Compared to writing in Wordpress, I enjoyed the new platform a lot. Over 2013 I kept adding functionality to Ristretto.</description>
+    </item>
+    
+    <item>
+      <title>Blog migrated to Pelican</title>
+      <link>https://code.zoia.org/post/2014/02/blog-migrated-to-pelican/</link>
+      <pubDate>Thu, 20 Feb 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://code.zoia.org/post/2014/02/blog-migrated-to-pelican/</guid>
+      <description>A year ago I started developing a static blogging engine called Ristretto. It was written in Python, used markdown files as input, Jinja2 for templating, and generated static html files on my web server. Some weeks later, I migrated my main blog (zoia.org) and this blog from Wordpress to my new blogging platform.
+Compared to writing in Wordpress, I enjoyed the new platform a lot. Over 2013 I kept adding functionality to Ristretto.</description>
+    </item>
+    
+    <item>
+      <title>Cubr, a Rubik&#39;s cube solver written in Python</title>
+      <link>https://code.zoia.org/2013/09/27/cubr-a-rubiks-cube-solver-written-in-python/</link>
+      <pubDate>Fri, 27 Sep 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://code.zoia.org/2013/09/27/cubr-a-rubiks-cube-solver-written-in-python/</guid>
+      <description>Cubr is a program by Chris Baker. You mix up a Rubik&amp;rsquo;s cube, show it to your computer&amp;rsquo;s webcam, and magically the cube begins to solve itself.
+  </description>
+    </item>
+    
+    <item>
+      <title>Cubr, a Rubik&#39;s cube solver written in Python</title>
+      <link>https://code.zoia.org/post/2013/09/27/cubr-a-rubiks-cube-solver-written-in-python/</link>
+      <pubDate>Fri, 27 Sep 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://code.zoia.org/post/2013/09/27/cubr-a-rubiks-cube-solver-written-in-python/</guid>
+      <description>Cubr is a program by Chris Baker. You mix up a Rubik&amp;rsquo;s cube, show it to your computer&amp;rsquo;s webcam, and magically the cube begins to solve itself.
+  </description>
+    </item>
+    
+    <item>
+      <title>Setting up an OpenERP v7 development environment on OSX using virtualenv</title>
+      <link>https://code.zoia.org/2013/05/09/setting-up-openerp7-on-osx-using-virtualenv/</link>
+      <pubDate>Thu, 09 May 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://code.zoia.org/2013/05/09/setting-up-openerp7-on-osx-using-virtualenv/</guid>
+      <description>Nowdays I develop mostly on OSX using Python. I am particularly fond of using virtualenv and virtualenvwrapper for keeping separate environments for each project, so that the system&amp;rsquo;s Python distribution does not get contaminated with the project dependencies. (This also helps in having a clear set of library dependencies when deploying the project to a production server.)
+Some days ago, while trying to set up a development environment1 for OpenERP v.</description>
+    </item>
+    
+    <item>
+      <title>Setting up an OpenERP v7 development environment on OSX using virtualenv</title>
+      <link>https://code.zoia.org/post/2013/05/09/setting-up-openerp7-on-osx-using-virtualenv/</link>
+      <pubDate>Thu, 09 May 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://code.zoia.org/post/2013/05/09/setting-up-openerp7-on-osx-using-virtualenv/</guid>
+      <description>Nowdays I develop mostly on OSX using Python. I am particularly fond of using virtualenv and virtualenvwrapper for keeping separate environments for each project, so that the system&amp;rsquo;s Python distribution does not get contaminated with the project dependencies. (This also helps in having a clear set of library dependencies when deploying the project to a production server.)
+Some days ago, while trying to set up a development environment1 for OpenERP v.</description>
+    </item>
+    
+    <item>
+      <title>An implementation of Conway&#39;s Game of Life by a thirteen year old</title>
+      <link>https://code.zoia.org/2013/03/23/an-implementation-of-conways-game-of-life-by-a-thirteen-year-old/</link>
+      <pubDate>Sat, 23 Mar 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://code.zoia.org/2013/03/23/an-implementation-of-conways-game-of-life-by-a-thirteen-year-old/</guid>
+      <description>Thirteen years old Amy Mather explains how she got in programming, why she loves it, and her implementation of Conway&amp;rsquo;s Game of Life for the Raspberry Pi.
+  </description>
+    </item>
+    
+    <item>
+      <title>An implementation of Conway&#39;s Game of Life by a thirteen year old</title>
+      <link>https://code.zoia.org/post/2013/03/23/an-implementation-of-conways-game-of-life-by-a-thirteen-year-old/</link>
+      <pubDate>Sat, 23 Mar 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://code.zoia.org/post/2013/03/23/an-implementation-of-conways-game-of-life-by-a-thirteen-year-old/</guid>
+      <description>Thirteen years old Amy Mather explains how she got in programming, why she loves it, and her implementation of Conway&amp;rsquo;s Game of Life for the Raspberry Pi.
+  </description>
+    </item>
+    
+    <item>
+      <title>Blogging with Ristretto</title>
+      <link>https://code.zoia.org/2013/01/07/blogging-with-ristretto/</link>
+      <pubDate>Mon, 07 Jan 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://code.zoia.org/2013/01/07/blogging-with-ristretto/</guid>
+      <description>I have just finished the alpha version of Ristretto, a ‘baked’ blogging engine. That is, it&amp;rsquo;s an engine that reads posts written in Markdown and generates static html files.
+Ristretto is loosely inspired on Marco Arment’s Second Crack. Some interesting references about why baked blogs are worth considering can be found in A plea for baked blogs, Blogging with Octropress, and Blogging with Second Crack.
+Ristretto is written in Python. The alpha version of Ristretto is functional and can be used for daily blogging.</description>
+    </item>
+    
+    <item>
+      <title>Blogging with Ristretto</title>
+      <link>https://code.zoia.org/post/2013/01/07/blogging-with-ristretto/</link>
+      <pubDate>Mon, 07 Jan 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://code.zoia.org/post/2013/01/07/blogging-with-ristretto/</guid>
+      <description>I have just finished the alpha version of Ristretto, a ‘baked’ blogging engine. That is, it&amp;rsquo;s an engine that reads posts written in Markdown and generates static html files.
+Ristretto is loosely inspired on Marco Arment’s Second Crack. Some interesting references about why baked blogs are worth considering can be found in A plea for baked blogs, Blogging with Octropress, and Blogging with Second Crack.
+Ristretto is written in Python. The alpha version of Ristretto is functional and can be used for daily blogging.</description>
+    </item>
+    
+    <item>
+      <title>Using TextMate and Python&#39;s virtualenv</title>
+      <link>https://code.zoia.org/2011/05/25/using-textmate-and-python-virtualenv/</link>
+      <pubDate>Wed, 25 May 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://code.zoia.org/2011/05/25/using-textmate-and-python-virtualenv/</guid>
+      <description>TextMate is a great text editor for MacOs. But the default Python bundle does not recognize Python&amp;rsquo;s virtual environments (virtualenv), which is rather annoying.
+No need to modify your Textmate bundle. This can be solved by declaring a project-specific shell variable named TM_PYTHON and assigning your virtualenv&amp;rsquo;s custom python&amp;rsquo;s path to it:
+ In TextMate, create a new project for your python program Open the Project Drawer Window (View/Open Project Drawer) Make sure no file is selected in the drawer.</description>
+    </item>
+    
+    <item>
+      <title>Using TextMate and Python&#39;s virtualenv</title>
+      <link>https://code.zoia.org/post/2011/05/25/using-textmate-and-python-virtualenv/</link>
+      <pubDate>Wed, 25 May 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://code.zoia.org/post/2011/05/25/using-textmate-and-python-virtualenv/</guid>
+      <description>TextMate is a great text editor for MacOs. But the default Python bundle does not recognize Python&amp;rsquo;s virtual environments (virtualenv), which is rather annoying.
+No need to modify your Textmate bundle. This can be solved by declaring a project-specific shell variable named TM_PYTHON and assigning your virtualenv&amp;rsquo;s custom python&amp;rsquo;s path to it:
+ In TextMate, create a new project for your python program Open the Project Drawer Window (View/Open Project Drawer) Make sure no file is selected in the drawer.</description>
+    </item>
+    
+  </channel>
+</rss>

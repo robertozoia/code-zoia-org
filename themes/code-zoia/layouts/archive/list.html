@@ -1,0 +1,31 @@
+{{ define "main" }}
+    <div>
+        {{ .Content }}
+    </div>
+
+    <div class="archive">
+        <h1>{{ i18n .Title }}</h1>
+        <table class="table-auto mt-10 font-sans font-light text-gray-900">
+            <thead class="border-b">
+                <tr>
+                    <th class="text-left pt-1 pb-1">Date</th>
+                    <th class="text-left pt-1 pb-1 pl-2">Article</th>
+                </tr>
+            </thead>
+            <tbody>
+            {{ range (where .Site.Pages "Type" "post") }}
+                <tr>
+                    <td class="pt-1 pb-1 pr-2">
+                        {{ .PublishDate.Format "2006-02-01" }}
+                    </td>
+                    <td class="pt-1 pb-1 pl-2">
+                        <a href="{{ .RelPermalink }}">
+                            {{ trim .Title " " }}
+                        </a>
+                    </td>
+                </tr>
+            {{ end }}
+            </tbody>
+        </table>
+    </div>
+{{ end }}

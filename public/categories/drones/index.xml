@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>drones on code.zoia.org</title>
+    <link>https://code.zoia.org/categories/drones/</link>
+    <description>Recent content in drones on code.zoia.org</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 10 Jan 2017 00:00:00 +0000</lastBuildDate><atom:link href="https://code.zoia.org/categories/drones/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Replacing Your Parrot AR Drone Blades (Propellers)</title>
+      <link>https://code.zoia.org/2017/replacing-parrot-ar-drone-propeller-blades/</link>
+      <pubDate>Tue, 10 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://code.zoia.org/2017/replacing-parrot-ar-drone-propeller-blades/</guid>
+      <description>The Parrot AR Drone has a total of four blades (or propellers&amp;hellip;). Note that not all blades are equal. Each blade has a letter printed near the shaft hole. Two blades are labeled &amp;ldquo;A&amp;rdquo;, and the other two are labeled &amp;ldquo;C&amp;rdquo;.
+While replacing the blades is pretty straightforward, the critical step is getting the blades in the right order. Otherwise, your drone won&amp;rsquo;t take off. (It will roll over one side.</description>
+    </item>
+    
+    <item>
+      <title>Replacing Your Parrot AR Drone Blades (Propellers)</title>
+      <link>https://code.zoia.org/post/2017/replacing-parrot-ar-drone-propeller-blades/</link>
+      <pubDate>Tue, 10 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://code.zoia.org/post/2017/replacing-parrot-ar-drone-propeller-blades/</guid>
+      <description>The Parrot AR Drone has a total of four blades (or propellers&amp;hellip;). Note that not all blades are equal. Each blade has a letter printed near the shaft hole. Two blades are labeled &amp;ldquo;A&amp;rdquo;, and the other two are labeled &amp;ldquo;C&amp;rdquo;.
+While replacing the blades is pretty straightforward, the critical step is getting the blades in the right order. Otherwise, your drone won&amp;rsquo;t take off. (It will roll over one side.</description>
+    </item>
+    
+  </channel>
+</rss>

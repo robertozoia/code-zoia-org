@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2014s on code.zoia.org</title>
+    <link>https://code.zoia.org/2014/</link>
+    <description>Recent content in 2014s on code.zoia.org</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 20 Nov 2014 00:00:00 +0000</lastBuildDate><atom:link href="https://code.zoia.org/2014/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Parallel between Chess and Programming</title>
+      <link>https://code.zoia.org/2014/11/the-parallel-between-chess-and-programming/</link>
+      <pubDate>Thu, 20 Nov 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://code.zoia.org/2014/11/the-parallel-between-chess-and-programming/</guid>
+      <description>I found this quote I wrote down some time ago from an interview with Victoria Livschitz, serial entrepreneur, a founder of Grid Dynamics and more recently, a technology start-up Qubell1.
+ Chess, like any other complex intellectual activity, involves a combination of knowledge, creative vision, and technique. Good chess players are able to acquire and store a lot of information &amp;ndash; classic and trendy opening systems, standard endgame positions, novelties specific to their repertoire, and so forth.</description>
+    </item>
+    
+    <item>
+      <title>On Markdown and how to fork a project</title>
+      <link>https://code.zoia.org/2014/09/on-markdown-and-how-to-fork-a-project/</link>
+      <pubDate>Mon, 15 Sep 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://code.zoia.org/2014/09/on-markdown-and-how-to-fork-a-project/</guid>
+      <description>Markdown and its syntax specification were developed by John Gruber as a text-to-HTML conversion tool for webwriters. Over the years, it has been widely adopted by sites likes GitHub and StackExchange. Most programming languages have some kind of Markdown library available, always developed not by Gruber but by some third party.
+The syntax for Markdown hasn&amp;rsquo;t been updated in years. Different implementations implement Markdown different&amp;hellip; and output different HTML code for the same markdown.</description>
+    </item>
+    
+    <item>
+      <title>Marco Arment on Overcast</title>
+      <link>https://code.zoia.org/2014/08/marco-arment-on-overcast/</link>
+      <pubDate>Thu, 07 Aug 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://code.zoia.org/2014/08/marco-arment-on-overcast/</guid>
+      <description>Just finished listening to Episode 43 of Debug, where Guy English and Rene Ritchie interview Marco Arment about the recent launch of Overcast, his podcasting app for iPhone.
+The episode is great. It is around three hours long but worth the time if you are interested in iOS development and the app ecosystem. Marco explains some of the problems he found while implementing the app and how he solved them, and his product design decisions.</description>
+    </item>
+    
+    <item>
+      <title>glFlush(); goto Metal;</title>
+      <link>https://code.zoia.org/2014/06/glflush-goto-metal/</link>
+      <pubDate>Tue, 17 Jun 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://code.zoia.org/2014/06/glflush-goto-metal/</guid>
+      <description>Nice piece from Guy English about Metal, Apple&amp;rsquo;s new API for lower level access to the GPU than is afforded by OpenGL ES.</description>
+    </item>
+    
+    <item>
+      <title>Don&#39;t be afraid to take risks</title>
+      <link>https://code.zoia.org/2014/06/dont-be-afraid-to-take-risks/</link>
+      <pubDate>Thu, 05 Jun 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://code.zoia.org/2014/06/dont-be-afraid-to-take-risks/</guid>
+      <description>A quote from _why about experimenting and taking risks, before his disapparition.
+ I do not write tests for my code. I do not write very many comments. I change styles very frequently. And most of all, I shun the predominant styles of coding, because that would go against the very essence of experimentation. In short: all I do is muck around.
+  So, my way of measuring a great programmer is different from some prevailing thought on the subject.</description>
+    </item>
+    
+    <item>
+      <title>Infocom&#39;s The Hitchhiker&#39;s Guide to the Galaxy original ad</title>
+      <link>https://code.zoia.org/2014/06/infocoms-the-hitchhiker-guide-to-the-galaxy-original-ad/</link>
+      <pubDate>Thu, 05 Jun 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://code.zoia.org/2014/06/infocoms-the-hitchhiker-guide-to-the-galaxy-original-ad/</guid>
+      <description>I spend hours playing this game&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>Time interviews Jonathan Ive</title>
+      <link>https://code.zoia.org/2014/05/time-interviews-johnny-ive/</link>
+      <pubDate>Sun, 04 May 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://code.zoia.org/2014/05/time-interviews-johnny-ive/</guid>
+      <description>Interviews to Apple&amp;rsquo;s Senior VP of Design are unfrequent. Worth reading.
+ Objects and their manufacture are inseparable. You understand a product if you understand how it’s made. I want to know what things are for, how they work, what they can or should be made of, before I even begin to think what they should look like. More and more people do. There is a resurgence of the idea of craft.</description>
+    </item>
+    
+    <item>
+      <title>How Heartbleed works, by xkcd</title>
+      <link>https://code.zoia.org/2014/04/how-the-heartbleed-works/</link>
+      <pubDate>Sun, 13 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://code.zoia.org/2014/04/how-the-heartbleed-works/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Science is about what is. Engineering is about what can be</title>
+      <link>https://code.zoia.org/2014/04/science-is-about-what-is/</link>
+      <pubDate>Tue, 08 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://code.zoia.org/2014/04/science-is-about-what-is/</guid>
+      <description>&amp;ldquo;Science is about what is. Engineering is about what CAN be.&amp;rdquo; (via PhD Comics)
+  </description>
+    </item>
+    
+    <item>
+      <title>Debug 31:  Miguel de Icaza on Mono</title>
+      <link>https://code.zoia.org/2014/04/miguel-de-icaza-on-mono/</link>
+      <pubDate>Tue, 08 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://code.zoia.org/2014/04/miguel-de-icaza-on-mono/</guid>
+      <description>Guy English and Rene Ritchie interview Miguel de Icaza in Episode 31 of Debug. I liked the interview very much, specially from minute 20 on when Miguel talks about functionality and implementation details of the Mono runtime, async calls, garbage collection&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>Write the code. Change the world (WWDC 2014)</title>
+      <link>https://code.zoia.org/2014/04/write-the-code-change-the-world/</link>
+      <pubDate>Thu, 03 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://code.zoia.org/2014/04/write-the-code-change-the-world/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Indispensable read for app developers</title>
+      <link>https://code.zoia.org/2014/04/indispensable-read-for-app-developers/</link>
+      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://code.zoia.org/2014/04/indispensable-read-for-app-developers/</guid>
+      <description>Three posts by Marco Arment that you should read if you are an app developer: Web Hosting for App Developers, What Did I Just Learn?, and Wrong about home-hosting?.</description>
+    </item>
+    
+    <item>
+      <title>Reid Hoffman and Matt Mullenweg in LinkedIn Speaker Series</title>
+      <link>https://code.zoia.org/2014/03/reid-hoffman-and-matt-mullenweg-in-linkedin-speaker-series/</link>
+      <pubDate>Thu, 27 Mar 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://code.zoia.org/2014/03/reid-hoffman-and-matt-mullenweg-in-linkedin-speaker-series/</guid>
+      <description>Matt Mullenweg (co-founder of WordPress and CEO of Automattic) and Reid Hoffman (LinkedIn co-founder) share their thoughts about the future of online publishing (among other things).
+  </description>
+    </item>
+    
+    <item>
+      <title>Simplicity is the ultimate sophistication</title>
+      <link>https://code.zoia.org/2014/03/simplicity-is-the-ultimate-sophistication/</link>
+      <pubDate>Wed, 19 Mar 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://code.zoia.org/2014/03/simplicity-is-the-ultimate-sophistication/</guid>
+      <description>Just finished watching Simple Made Easy, a talk by Rich Hickey, creator of Clojure, at The Strange Loop 2011 conference. Recommended (1 hour).
+ Simple has a core meaning, an understanding of which is critical to developing robust and flexible software. We should be simplifying the problem domain, and creating solutions by composing simple parts. Instead, we endure complexity, and pride ourselves in our ability to manage it. We can do better.</description>
+    </item>
+    
+    <item>
+      <title>Stephen King at UMass Lowell</title>
+      <link>https://code.zoia.org/2014/03/stephen-king-at-umass-lowell/</link>
+      <pubDate>Mon, 17 Mar 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://code.zoia.org/2014/03/stephen-king-at-umass-lowell/</guid>
+      <description>A one hour long interview with Stephen King.
+  </description>
+    </item>
+    
+    <item>
+      <title>Book: The Making of Templar</title>
+      <link>https://code.zoia.org/2014/03/book-the-making-of-templar/</link>
+      <pubDate>Tue, 04 Mar 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://code.zoia.org/2014/03/book-the-making-of-templar/</guid>
+      <description>I somehow missed The Making of Templar, a free ebook by Jordan Mechner, LeUyen Pham, and Alex Puvilland.
+Jordan Mechner is best known as the creator of great games like Karateka (1984), Prince of Persia (1989), The Last Express (1997)&amp;hellip; Most of these games are now available for modern platforms like iOS and Android.
+You can download the free ebook from Jordan Mechner&amp;rsquo;s page.</description>
+    </item>
+    
+    <item>
+      <title>Why people are scared of free software</title>
+      <link>https://code.zoia.org/2014/03/why-people-are-scared-of-free-software/</link>
+      <pubDate>Tue, 04 Mar 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://code.zoia.org/2014/03/why-people-are-scared-of-free-software/</guid>
+      <description>Matt Mullenweg on why people are scared of free software.</description>
+    </item>
+    
+    <item>
+      <title>iCloud Keychain Security</title>
+      <link>https://code.zoia.org/2014/03/icloud-keychain-security/</link>
+      <pubDate>Mon, 03 Mar 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://code.zoia.org/2014/03/icloud-keychain-security/</guid>
+      <description>Apple has released an update to its iOS Security whitepaper. Rich Mogull makes a good summary of the whitepaper, and explains why he thinks Apple has provided a way to make it impossible for a third party to obtain your iCloud Keychain passwords.
+Worth reading.</description>
+    </item>
+    
+    <item>
+      <title>Why is a Lightning cable required for CarPlay</title>
+      <link>https://code.zoia.org/2014/03/lightning-cable-required-for-carplay/</link>
+      <pubDate>Mon, 03 Mar 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://code.zoia.org/2014/03/lightning-cable-required-for-carplay/</guid>
+      <description>Wondering why CarPlay requires your iPhone to be conected via a Lightning cable? Engadget gives a hint.
+ the CarPlay connection is based on the H.264 video protocol, and sends user input from the touchscreen back to your iDevice
+ </description>
+    </item>
+    
+    <item>
+      <title>Configuring Pelican, Dropbox, and automatic blog publishing</title>
+      <link>https://code.zoia.org/2014/02/pelican-dropbox-automatic-blog-regeneration/</link>
+      <pubDate>Tue, 25 Feb 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://code.zoia.org/2014/02/pelican-dropbox-automatic-blog-regeneration/</guid>
+      <description>In this post I will explain how I set up Pelican on a Linux (Ubuntu) server to mantain multiple blogs, using Dropbox for file synchronization, watcher to detect changes in the blog&amp;rsquo;s content and regenerate it , and Apache to serve the resulting files.
+ The blogs&amp;rsquo;s content will reside in a shared Dropbox folder. This is where posts are written in Markdown format (or .rst if you prefer). Pelican template (themes) files will also reside in this Dropbox folder, so you can modifiy your blog&amp;rsquo;s theme if needed without logging into your web server.</description>
+    </item>
+    
+    <item>
+      <title>Blog migrated to Pelican</title>
+      <link>https://code.zoia.org/2014/02/blog-migrated-to-pelican/</link>
+      <pubDate>Thu, 20 Feb 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://code.zoia.org/2014/02/blog-migrated-to-pelican/</guid>
+      <description>A year ago I started developing a static blogging engine called Ristretto. It was written in Python, used markdown files as input, Jinja2 for templating, and generated static html files on my web server. Some weeks later, I migrated my main blog (zoia.org) and this blog from Wordpress to my new blogging platform.
+Compared to writing in Wordpress, I enjoyed the new platform a lot. Over 2013 I kept adding functionality to Ristretto.</description>
+    </item>
+    
+  </channel>
+</rss>

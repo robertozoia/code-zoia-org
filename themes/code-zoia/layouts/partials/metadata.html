@@ -1,0 +1,11 @@
+<div class="text-sm text-gray-500">
+    <time datetime='{{ .Date.Format "2006-01-02" }}'>
+        {{ .Date.Format (default "January 2, 2006" .Site.Params.date_format) }}
+    </time>
+{{ with .Params.tags }}
+    {{ range . }}
+        {{ $href := print (absURL "tags/") (urlize .) }}
+        <a class="" href="{{ $href }}">{{ . }}</a>
+        {{ end }}
+   {{ end }}
+</div>

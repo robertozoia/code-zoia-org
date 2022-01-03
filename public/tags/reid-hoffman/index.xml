@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Reid Hoffman on code.zoia.org</title>
+    <link>https://code.zoia.org/tags/reid-hoffman/</link>
+    <description>Recent content in Reid Hoffman on code.zoia.org</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 27 Mar 2014 00:00:00 +0000</lastBuildDate><atom:link href="https://code.zoia.org/tags/reid-hoffman/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Reid Hoffman and Matt Mullenweg in LinkedIn Speaker Series</title>
+      <link>https://code.zoia.org/2014/03/reid-hoffman-and-matt-mullenweg-in-linkedin-speaker-series/</link>
+      <pubDate>Thu, 27 Mar 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://code.zoia.org/2014/03/reid-hoffman-and-matt-mullenweg-in-linkedin-speaker-series/</guid>
+      <description>Matt Mullenweg (co-founder of WordPress and CEO of Automattic) and Reid Hoffman (LinkedIn co-founder) share their thoughts about the future of online publishing (among other things).
+  </description>
+    </item>
+    
+    <item>
+      <title>Reid Hoffman and Matt Mullenweg in LinkedIn Speaker Series</title>
+      <link>https://code.zoia.org/post/2014/03/reid-hoffman-and-matt-mullenweg-in-linkedin-speaker-series/</link>
+      <pubDate>Thu, 27 Mar 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://code.zoia.org/post/2014/03/reid-hoffman-and-matt-mullenweg-in-linkedin-speaker-series/</guid>
+      <description>Matt Mullenweg (co-founder of WordPress and CEO of Automattic) and Reid Hoffman (LinkedIn co-founder) share their thoughts about the future of online publishing (among other things).
+  </description>
+    </item>
+    
+  </channel>
+</rss>

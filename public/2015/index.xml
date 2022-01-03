@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2015s on code.zoia.org</title>
+    <link>https://code.zoia.org/2015/</link>
+    <description>Recent content in 2015s on code.zoia.org</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 01 Nov 2015 00:00:00 +0000</lastBuildDate><atom:link href="https://code.zoia.org/2015/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>This is GIT</title>
+      <link>https://code.zoia.org/2015/11/this-is-git/</link>
+      <pubDate>Sun, 01 Nov 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://code.zoia.org/2015/11/this-is-git/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>What is Code?</title>
+      <link>https://code.zoia.org/2015/06/what-is-code/</link>
+      <pubDate>Fri, 19 Jun 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://code.zoia.org/2015/06/what-is-code/</guid>
+      <description>Excellent long article by Paul Ford: What is Code?.</description>
+    </item>
+    
+    <item>
+      <title>Brandon Sanderson Creative Writing 2013</title>
+      <link>https://code.zoia.org/2015/06/creative-writing-brandon-sanderson/</link>
+      <pubDate>Thu, 11 Jun 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://code.zoia.org/2015/06/creative-writing-brandon-sanderson/</guid>
+      <description>I recently found this [great] 2013 course on Creative Writing by Brandon Sanderson (!!). I&amp;rsquo;m posting it here for future reference.
+  </description>
+    </item>
+    
+    <item>
+      <title>Simplify:  move code into database functions</title>
+      <link>https://code.zoia.org/2015/05/simplify-move-code-into-database-functions/</link>
+      <pubDate>Mon, 04 May 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://code.zoia.org/2015/05/simplify-move-code-into-database-functions/</guid>
+      <description>Interesting article by Derek Sivers. What if the code for some basic operations were coded in the database itself, instead of in the server-side or client-side layer?</description>
+    </item>
+    
+    <item>
+      <title>What is a Hacker?</title>
+      <link>https://code.zoia.org/2015/02/what-is-a-hacker/</link>
+      <pubDate>Fri, 13 Feb 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://code.zoia.org/2015/02/what-is-a-hacker/</guid>
+      <description>Steven Levy: What is a Hacker?</description>
+    </item>
+    
+  </channel>
+</rss>

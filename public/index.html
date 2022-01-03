@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html><head>
+    
+    
+        
+    
+    <title>
+        code.zoia.org
+    </title>
+    
+    <meta charset="utf-8">
+    <meta name="generator" content="Hugo 0.91.2" />
+     <meta property="og:title" content="code.zoia.org" />
+<meta property="og:description" content="" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://code.zoia.org/" />
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href='/css/styles.css'>
+    <link rel="stylesheet" type="text/css" href='/css/syntax.css'>
+</head>
+<body>
+        <div class="container max-w-screen-md mx-auto"><header class="container subpixel-antialiased">
+    <nav class="flex flex-wrap w-full py-4 md:py-0 text-lg text-gray-70 bg-white">
+        <ul class="text-base
+                   text-gray-300
+                   pt-4
+                   md:flex
+                   md:pt-0
+                   sans-serif
+                   uppercase
+                   "
+        >
+            <li class="md:pt-3
+                py-2
+                block"><span class="
+                                    font-medium
+                                    text-lg
+                                    text-gray-500"
+                       >code</span><span
+                            class="font-medium
+                                   text-logoleft
+                                   text-lg"
+                        >zoia</span><span
+                             class="
+                                    text-lg
+                                    font-medium
+                                    text-gray-500"
+                       >org</span></li>
+            
+                <li><a class="text-sm md:p-4 py-2 block hover:underline" href="/about/">About</a></li>
+            
+                <li><a class="text-sm md:p-4 py-2 block hover:underline" href="/archive/">Archive</a></li>
+            
+                <li><a class="text-sm md:p-4 py-2 block hover:underline" href="/">Home</a></li>
+            
+
+        </ul>
+    </nav>
+</header>
+</div>
+        <div class="content container max-w-screen-md mx-auto mt-8 pb-16">
+
+    
+
+    
+        <article class="pb-4 mb-12 border-b">
+            <div><h2 class="text-3xl font-sans font-normal"><a href="https://code.zoia.org/post/optimizing-wordpress/">Optimizing Wordpress on WPEngine</a></h2></div>
+            <div class="text-sm text-gray-500">October 7, 2021</div>
+            <div class="mt-3 font-sans font-light text-gray-900">
+                <p>Inspired by Kevin Quirk&rsquo;s post about <a href="https://kevq.uk/core-web-vitals-and-wordpress/">Core Web Vitals and Wordpress</a>, I spend some hours trying to improve the web vitals from my <a href="https://zoia.org">other site</a>, which runs on Wordpress. (You can measure your site&rsquo;s core vitals on <a href="https://web.dev/measure/">web.dev</a>.)</p>
+<p>Some months ago I migrated that site from a self-hosted Linode instance to a managed solution on WPEngine. I&rsquo;m essentially buying back time. A managed solution frees me from server admin duties, like making sure the latest Linux updates are installed, and PHP and its libraries up-to-date.</p>
+<p>WPEngine offers an optimized Wordpress installation, which includes caching and CDN. Even so, the lighthouse test returned scores between 70-80 for both performance and best practices. While installing WP Super Cache gave me a near perfect score, WPEngine imposes some limitations on <a href="https://wpengine.com/support/disallowed-plugins/">what Wordpress plugins you can install</a> and WP Super Cache in particular is not allowed.</p>
+<p>After some hours of trying different plugins and comparing results, I finally settled for the following configuration:</p>
+<ul>
+<li>Disable Jetpack&rsquo;s site boost and image optimizing. (Jetpack doesn&rsquo;t handle cache invalidation, so any image stored on their servers stays there forever&hellip; You&rsquo;ll need to upload the asset with a different name to use it again on your site.)</li>
+<li><a href="https://wordpress.org/plugins/fast-velocity-minify/">Fast Velocity Minify</a> plugin for merging and minifying CSS and JavaScript, and compressing HTML.</li>
+<li><a href="https://wordpress.org/plugins/rocket-lazy-load/">Lazy Load</a> by WP Rocket, for lazy-loading images <em>and</em> videos without jQuery or other libraries.</li>
+</ul>
+<p>Now the site gets substantially better <a href="https://lighthouse-dot-webdotdevsite.appspot.com//lh/html?url=https%3A%2F%2Fzoia.org">web vitals score</a>.</p>
+<figure><img src="/media/2021/zoia-org-web-vitals-2021-10-07.png"/>
+</figure>
+
+<p>The perfectionist in me would aim for 99%-100% in all categories, but I don&rsquo;t think I can get there via plugins.  The next improvement should be reducing the site&rsquo;s footprint, which is currently around ~1MB uncompressed.</p>
+
+            </div>
+        </article>
+        
+
+    
+        <article class="pb-4 mb-12 border-b">
+            <div><h2 class="text-3xl font-sans font-normal"><a href="https://code.zoia.org/post/emacs-gnu-symbiosis/">Symbiosis</a></h2></div>
+            <div class="text-sm text-gray-500">August 24, 2021</div>
+            <div class="mt-3 font-sans font-light text-gray-900">
+                <blockquote>
+<p>With emacs and gnus, one must serve a long penance, after which shit still doesn&rsquo;t quite work but you&rsquo;ve achieved a deep symbiosis with your editor/mailer and can tailor it to your very precise needs.</p>
+</blockquote>
+<p><a href="https://www.reddit.com/r/emacs/comments/ebite6/mu4e%5Fvs%5Fgnus%5Fvs%5Fnotmuch%5Ffor%5Femacs%5Femail/fb5q9df?utm%5Fsource=share&amp;utm%5Fmedium=web2x&amp;context=3">Reddit</a></p>
+
+            </div>
+        </article>
+        
+
+    
+        <article class="pb-4 mb-12 border-b">
+            <div><h2 class="text-3xl font-sans font-normal"><a href="https://code.zoia.org/post/henrick-lissner-doom-creator/">Henrik Lissner, Emacs Doom Creator on Doom Emacs</a></h2></div>
+            <div class="text-sm text-gray-500">June 5, 2021</div>
+            <div class="mt-3 font-sans font-light text-gray-900">
+                <p><a href="https://zaiste.net/">Jakub Zaiste</a> interviews Henrik Lissner, <a href="https://github.com/hlissner/doom-emacs">Doom Emacs</a> creator. njj</p>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/LKegZI9vWUU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+            </div>
+        </article>
+        
+
+    
+        <article class="pb-4 mb-12 border-b">
+            <div><h2 class="text-3xl font-sans font-normal"><a href="https://code.zoia.org/post/from-thunderbird-to-mu4e-and-back-to-thunderbird/">From Thunderbird to mu4e and back to Thunderbird</a></h2></div>
+            <div class="text-sm text-gray-500">June 3, 2021</div>
+            <div class="mt-3 font-sans font-light text-gray-900">
+                <p>I spent a couple of days configuring Emacs as an email client in my MacBook. There are lot of useful pages available on how to achieve this. The setup involves using a program like <code>mbsync</code> or <code>offlineimap</code> to create and maintain a local copy of your emails accounts on your computer, and installing and configuring an email client like <code>notmuch</code> or <code>mu4e</code> in Emacs. (Never could get OAUTH2 to work with <code>mbsync</code> so I had to settle for custom app passwords.)</p>
+<p>My goal in setting Emacs as an email client is to have a long-term client-side solution for email, one that works the same way on MacOS, Linux, and Windows. Also, my hope was that it would integrate better with my workflow, which involves heavy use of Emacs <code>org-mode</code> and <code>org-roam</code>.</p>
+<p>While I enjoy the simplicity of <code>mu4e</code>&rsquo;s text interface, and search is way better than Thunderbird&rsquo;s search, rendering of html mails is suboptimal. There is probably a solution for this, it&rsquo;s just that I&rsquo;m not willing to dive into another <a href="https://code.zoia.org/posts/is-it-worth-the-time">time sink</a> for now. So I&rsquo;m falling back to Thunderbird until I have time to fix it.</p>
+
+            </div>
+        </article>
+        
+    
+    <ul class="pagination pagination-default">
+      <li class="page-item disabled">
+        <a aria-disabled="true" aria-label="First" class="page-link" role="button" tabindex="-1"><span aria-hidden="true">&laquo;&laquo;</span></a>
+      </li>
+      <li class="page-item disabled">
+        <a aria-disabled="true" aria-label="Previous" class="page-link" role="button" tabindex="-1"><span aria-hidden="true">&laquo;</span></a>
+      </li>
+      <li class="page-item active">
+        <a aria-current="page" aria-label="Page 1" class="page-link" role="button">1</a>
+      </li>
+      <li class="page-item">
+        <a href="/page/2/" aria-label="Page 2" class="page-link" role="button">2</a>
+      </li>
+      <li class="page-item">
+        <a href="/page/3/" aria-label="Page 3" class="page-link" role="button">3</a>
+      </li>
+      <li class="page-item">
+        <a href="/page/4/" aria-label="Page 4" class="page-link" role="button">4</a>
+      </li>
+      <li class="page-item">
+        <a href="/page/5/" aria-label="Page 5" class="page-link" role="button">5</a>
+      </li>
+      <li class="page-item">
+        <a href="/page/2/" aria-label="Next" class="page-link" role="button"><span aria-hidden="true">&raquo;</span></a>
+      </li>
+      <li class="page-item">
+        <a href="/page/23/" aria-label="Last" class="page-link" role="button"><span aria-hidden="true">&raquo;&raquo;</span></a>
+      </li>
+    </ul>
+
+        </div>
+        <footer class="footer fixed inset-x-0 bottom-0 w-full bg-black text-gray-100 text-sm">
+    <div class="container max-w-screen-md mx-auto pt-4 py-4">
+        The footer.
+    </div>
+</footer>
+
+    </body>
+</html>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>second crack on code.zoia.org</title>
+    <link>https://code.zoia.org/tags/second-crack/</link>
+    <description>Recent content in second crack on code.zoia.org</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 07 Jan 2013 00:00:00 +0000</lastBuildDate><atom:link href="https://code.zoia.org/tags/second-crack/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Blogging with Ristretto</title>
+      <link>https://code.zoia.org/2013/01/07/blogging-with-ristretto/</link>
+      <pubDate>Mon, 07 Jan 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://code.zoia.org/2013/01/07/blogging-with-ristretto/</guid>
+      <description>I have just finished the alpha version of Ristretto, a ‘baked’ blogging engine. That is, it&amp;rsquo;s an engine that reads posts written in Markdown and generates static html files.
+Ristretto is loosely inspired on Marco Arment’s Second Crack. Some interesting references about why baked blogs are worth considering can be found in A plea for baked blogs, Blogging with Octropress, and Blogging with Second Crack.
+Ristretto is written in Python. The alpha version of Ristretto is functional and can be used for daily blogging.</description>
+    </item>
+    
+    <item>
+      <title>Blogging with Ristretto</title>
+      <link>https://code.zoia.org/post/2013/01/07/blogging-with-ristretto/</link>
+      <pubDate>Mon, 07 Jan 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://code.zoia.org/post/2013/01/07/blogging-with-ristretto/</guid>
+      <description>I have just finished the alpha version of Ristretto, a ‘baked’ blogging engine. That is, it&amp;rsquo;s an engine that reads posts written in Markdown and generates static html files.
+Ristretto is loosely inspired on Marco Arment’s Second Crack. Some interesting references about why baked blogs are worth considering can be found in A plea for baked blogs, Blogging with Octropress, and Blogging with Second Crack.
+Ristretto is written in Python. The alpha version of Ristretto is functional and can be used for daily blogging.</description>
+    </item>
+    
+  </channel>
+</rss>

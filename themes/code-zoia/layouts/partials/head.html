@@ -1,0 +1,16 @@
+<head>
+    {{ $title := print .Site.Title " | " .Title }}
+    {{ if .IsHome }}
+        {{ $title = .Site.Title }}
+    {{ end }}
+    <title>
+        {{ .Title }}
+    </title>
+    <!-- Requirede meta tags -->
+    <meta charset="utf-8">
+    {{ .Hugo.Generator }}
+     {{ template "_internal/opengraph.html" . }}
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href='/css/styles.css'>
+    <link rel="stylesheet" type="text/css" href='/css/syntax.css'>
+</head>

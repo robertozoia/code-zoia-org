@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>virtualenv on code.zoia.org</title>
+    <link>https://code.zoia.org/tags/virtualenv/</link>
+    <description>Recent content in virtualenv on code.zoia.org</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 09 May 2013 00:00:00 +0000</lastBuildDate><atom:link href="https://code.zoia.org/tags/virtualenv/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Setting up an OpenERP v7 development environment on OSX using virtualenv</title>
+      <link>https://code.zoia.org/2013/05/09/setting-up-openerp7-on-osx-using-virtualenv/</link>
+      <pubDate>Thu, 09 May 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://code.zoia.org/2013/05/09/setting-up-openerp7-on-osx-using-virtualenv/</guid>
+      <description>Nowdays I develop mostly on OSX using Python. I am particularly fond of using virtualenv and virtualenvwrapper for keeping separate environments for each project, so that the system&amp;rsquo;s Python distribution does not get contaminated with the project dependencies. (This also helps in having a clear set of library dependencies when deploying the project to a production server.)
+Some days ago, while trying to set up a development environment1 for OpenERP v.</description>
+    </item>
+    
+    <item>
+      <title>Setting up an OpenERP v7 development environment on OSX using virtualenv</title>
+      <link>https://code.zoia.org/post/2013/05/09/setting-up-openerp7-on-osx-using-virtualenv/</link>
+      <pubDate>Thu, 09 May 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://code.zoia.org/post/2013/05/09/setting-up-openerp7-on-osx-using-virtualenv/</guid>
+      <description>Nowdays I develop mostly on OSX using Python. I am particularly fond of using virtualenv and virtualenvwrapper for keeping separate environments for each project, so that the system&amp;rsquo;s Python distribution does not get contaminated with the project dependencies. (This also helps in having a clear set of library dependencies when deploying the project to a production server.)
+Some days ago, while trying to set up a development environment1 for OpenERP v.</description>
+    </item>
+    
+    <item>
+      <title>Using TextMate and Python&#39;s virtualenv</title>
+      <link>https://code.zoia.org/2011/05/25/using-textmate-and-python-virtualenv/</link>
+      <pubDate>Wed, 25 May 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://code.zoia.org/2011/05/25/using-textmate-and-python-virtualenv/</guid>
+      <description>TextMate is a great text editor for MacOs. But the default Python bundle does not recognize Python&amp;rsquo;s virtual environments (virtualenv), which is rather annoying.
+No need to modify your Textmate bundle. This can be solved by declaring a project-specific shell variable named TM_PYTHON and assigning your virtualenv&amp;rsquo;s custom python&amp;rsquo;s path to it:
+ In TextMate, create a new project for your python program Open the Project Drawer Window (View/Open Project Drawer) Make sure no file is selected in the drawer.</description>
+    </item>
+    
+    <item>
+      <title>Using TextMate and Python&#39;s virtualenv</title>
+      <link>https://code.zoia.org/post/2011/05/25/using-textmate-and-python-virtualenv/</link>
+      <pubDate>Wed, 25 May 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://code.zoia.org/post/2011/05/25/using-textmate-and-python-virtualenv/</guid>
+      <description>TextMate is a great text editor for MacOs. But the default Python bundle does not recognize Python&amp;rsquo;s virtual environments (virtualenv), which is rather annoying.
+No need to modify your Textmate bundle. This can be solved by declaring a project-specific shell variable named TM_PYTHON and assigning your virtualenv&amp;rsquo;s custom python&amp;rsquo;s path to it:
+ In TextMate, create a new project for your python program Open the Project Drawer Window (View/Open Project Drawer) Make sure no file is selected in the drawer.</description>
+    </item>
+    
+  </channel>
+</rss>

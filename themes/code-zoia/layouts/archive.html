@@ -1,0 +1,21 @@
+{{ define "main" }}
+
+<ul>
+{{- range (where .Site.Pages "Type" "posts") }}
+    <li>
+        {{ .Date.Format "2006-03-01" }}
+            <a href="{{ .Permalink }}">{{ .Title | markdownify }}</a>
+        </li>
+{{- end }}
+
+            <div class="text-sm text-gray-500">{{ .Date.Format "January 2, 2006" }}</div>
+            <div class="mt-3 font-sans font-light text-gray-900">
+                {{ .Content  }}
+            </div>
+        </article>
+        {{ end }}
+        {{- end }}
+        {{ template "_internal/pagination.html" . }}
+
+
+{{ end }}

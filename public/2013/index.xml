@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2013s on code.zoia.org</title>
+    <link>https://code.zoia.org/2013/</link>
+    <description>Recent content in 2013s on code.zoia.org</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 27 Sep 2013 00:00:00 +0000</lastBuildDate><atom:link href="https://code.zoia.org/2013/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cubr, a Rubik&#39;s cube solver written in Python</title>
+      <link>https://code.zoia.org/2013/09/27/cubr-a-rubiks-cube-solver-written-in-python/</link>
+      <pubDate>Fri, 27 Sep 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://code.zoia.org/2013/09/27/cubr-a-rubiks-cube-solver-written-in-python/</guid>
+      <description>Cubr is a program by Chris Baker. You mix up a Rubik&amp;rsquo;s cube, show it to your computer&amp;rsquo;s webcam, and magically the cube begins to solve itself.
+  </description>
+    </item>
+    
+    <item>
+      <title>Why virtual isn&#39;t real to your brain</title>
+      <link>https://code.zoia.org/2013/06/04/why-virtual-isnt-real-to-your-brain/</link>
+      <pubDate>Tue, 04 Jun 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://code.zoia.org/2013/06/04/why-virtual-isnt-real-to-your-brain/</guid>
+      <description>Nice article by the lengendary Michael Abrash: Why virtual isn&amp;rsquo;t real to your brain. Before delving into technical detail, he shares some reflections on how sharing information probably helped him early in his carrier land a job at Microsoft, then Id, and more recently at Valve.</description>
+    </item>
+    
+    <item>
+      <title>Setting up an OpenERP v7 development environment on OSX using virtualenv</title>
+      <link>https://code.zoia.org/2013/05/09/setting-up-openerp7-on-osx-using-virtualenv/</link>
+      <pubDate>Thu, 09 May 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://code.zoia.org/2013/05/09/setting-up-openerp7-on-osx-using-virtualenv/</guid>
+      <description>Nowdays I develop mostly on OSX using Python. I am particularly fond of using virtualenv and virtualenvwrapper for keeping separate environments for each project, so that the system&amp;rsquo;s Python distribution does not get contaminated with the project dependencies. (This also helps in having a clear set of library dependencies when deploying the project to a production server.)
+Some days ago, while trying to set up a development environment1 for OpenERP v.</description>
+    </item>
+    
+    <item>
+      <title>An implementation of Conway&#39;s Game of Life by a thirteen year old</title>
+      <link>https://code.zoia.org/2013/03/23/an-implementation-of-conways-game-of-life-by-a-thirteen-year-old/</link>
+      <pubDate>Sat, 23 Mar 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://code.zoia.org/2013/03/23/an-implementation-of-conways-game-of-life-by-a-thirteen-year-old/</guid>
+      <description>Thirteen years old Amy Mather explains how she got in programming, why she loves it, and her implementation of Conway&amp;rsquo;s Game of Life for the Raspberry Pi.
+  </description>
+    </item>
+    
+    <item>
+      <title>Fixing OSX&#39;s Open With duplicates</title>
+      <link>https://code.zoia.org/2013/03/21/fixing-osx-open-with-duplicates/</link>
+      <pubDate>Thu, 21 Mar 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://code.zoia.org/2013/03/21/fixing-osx-open-with-duplicates/</guid>
+      <description>Getting rid of Open With duplicates, via Daring Fireball.</description>
+    </item>
+    
+    <item>
+      <title>Markdown support in OSX QuickLook</title>
+      <link>https://code.zoia.org/2013/01/12/markdown-support-in-osx-quicklook/</link>
+      <pubDate>Sat, 12 Jan 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://code.zoia.org/2013/01/12/markdown-support-in-osx-quicklook/</guid>
+      <description>If you work with Markdown files, this is an indispensable addition to OSX preview functionality.</description>
+    </item>
+    
+    <item>
+      <title>Blogging with Ristretto</title>
+      <link>https://code.zoia.org/2013/01/07/blogging-with-ristretto/</link>
+      <pubDate>Mon, 07 Jan 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://code.zoia.org/2013/01/07/blogging-with-ristretto/</guid>
+      <description>I have just finished the alpha version of Ristretto, a ‘baked’ blogging engine. That is, it&amp;rsquo;s an engine that reads posts written in Markdown and generates static html files.
+Ristretto is loosely inspired on Marco Arment’s Second Crack. Some interesting references about why baked blogs are worth considering can be found in A plea for baked blogs, Blogging with Octropress, and Blogging with Second Crack.
+Ristretto is written in Python. The alpha version of Ristretto is functional and can be used for daily blogging.</description>
+    </item>
+    
+  </channel>
+</rss>
