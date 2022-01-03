@@ -12,7 +12,7 @@ Upgrading the server to Ubuntu 18.04 or 20.04 is out of the question. (Just the 
 
 The cleanest way to run a more recent Python version is to install [pyenv](https://github.com/pyenv/pyenv). `pyenv` is a Python version management system which takes care of downloading, compiling, and installing the Python version you need without messing with the system configuration.
 
-Python [now requires OpenSSL version 1.1.1+](https://docs.python.org/release/3.10.0/whatsnew/changelog.html#python-3-10-0-final), and Ubuntu 16.04 only provides OpenSSL up to version 1.0. So, if you try to install, for example, Python 3.10.0 using `pyenv`, you'll get an error complaining about OpenSSL. (The error is actually silent. You'll need to run \`pyenv\` with the verbose/-v in order to see the output.)
+Python [now requires OpenSSL version 1.1.1+](https://docs.python.org/release/3.10.0/whatsnew/changelog.html#python-3-10-0-final), and Ubuntu 16.04 only provides OpenSSL up to version 1.0. So, if you try to install, for example, Python 3.10.0 using `pyenv`, you'll get an error complaining about OpenSSL. (The error is actually silent. You'll need to run `pyenv` with the verbose/-v in order to see the output.)
 
 ```nil
 $ pyenv install -v 3.10.0
@@ -26,41 +26,34 @@ $
 
 To fix this:
 
-1.  Install OpenSSL 1.1.1 from [source](https://www.openssl.org/source/).
-    -   Compile OpenSSL and install it.
+Install OpenSSL 1.1.1 from [source](https://www.openssl.org/source/):
 
-<!--listend-->
+Compile OpenSSL and install it.
 
 ```nil
-$ wget https://www.openssl.org/source/openssl-1.1.1l.tar.gz
-$ tar xvfz openssl-1.1.1l.tar.gz
-$ cd openssl-1-1-1l
-$ ./config
-$ make
-$ sudo make install
+   $ wget https://www.openssl.org/source/openssl-1.1.1l.tar.gz
+   $ tar xvfz openssl-1.1.1l.tar.gz
+   $ cd openssl-1-1-1l
+   $ ./config
+   $ make
+   $ sudo make install
 ```
 
--   Add `/usr/local/lib` and `/usr/local/local/lib64` to your library path in `.bashrc` (or whatever your system uses) and reload your shell using `$ exec $SHELL`.
-
-<!--listend-->
+Add `/usr/local/lib` and `/usr/local/local/lib64` to your library path in `.bashrc` (or whatever your system uses) and reload your shell using `$ exec $SHELL`.
 
 ```nil
 export LD_LIBRARY_PATH=/usr/local/lib/:/usr/local/lib64:$LD_LIBRARY_PATH
 ```
 
--   Check that OpenSSL installed OK:
-
-<!--listend-->
+Check that OpenSSL installed OK:
 
 ```nil
-$ openssl version
+   $ openssl version
 
-OpenSSL 1.1.1l  24 Aug 2021
+   OpenSSL 1.1.1l  24 Aug 2021
 ```
 
-1.  Tell `pyenv` where are the OpenSSL files located so the compiler and liker can find them and then run `pyenv` to install the desired Python version.
-
-<!--listend-->
+Tell `pyenv` where are the OpenSSL files located so the compiler and liker can find them and then run `pyenv` to install the desired Python version.
 
 ```nil
 $ export LDFLAGS="-L/usr/local/lib/ -L/usr/local/lib64/"
