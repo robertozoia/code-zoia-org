@@ -42,9 +42,11 @@ $ sudo make install
 
 -   Add \`/usr/local/lib\` and \`/usr/local/local/lib64\` to your library path in \`.bashrc\` (or whatever your system uses) and reload your shell using \`$ exec $SHELL\`.
 
-\#+begin-src
-      export LD\_LIBRARY\_PATH=/usr/local/lib/:/usr/local/lib64:$LD\_LIBRARY\_PATH
-\#+end\_src
+<!--listend-->
+
+```nil
+export LD_LIBRARY_PATH=/usr/local/lib/:/usr/local/lib64:$LD_LIBRARY_PATH
+```
 
 -   Check that OpenSSL installed OK:
 
