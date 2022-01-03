@@ -1,4 +1,0 @@
-User-agent: *
-Disallow: /theme/
-Disallow: /media/
-Disallow: /drafts/
