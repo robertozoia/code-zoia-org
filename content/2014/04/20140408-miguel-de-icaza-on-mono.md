@@ -2,7 +2,7 @@
 title = "Debug 31:  Miguel de Icaza on Mono"
 linkTitle = "http://www.imore.com/debug-31-miguel-de-icaza-mono"
 date = "2014-04-08"
-tags = ["Mono", "F#", "garbage collection"]
+tags = ["Mono", "F-Sharp", "garbage collection"]
 slug = "miguel-de-icaza-on-mono"
 +++
 
