@@ -3,7 +3,7 @@ title = "Optimizing Wordpress on WPEngine"
 author = ["Roberto Zoia"]
 date = 2021-10-07
 draft = false
-weight = 1001
+weight = 1002
 +++
 
 Inspired by Kevin Quirk's post about [Core Web Vitals and Wordpress](<https://kevq.uk/core-web-vitals-and-wordpress/>), I spend some hours trying to improve the web vitals from my [other site](<https://zoia.org>), which runs on Wordpress. (You can measure your site's core vitals on [web.dev](<https://web.dev/measure/>).)
@@ -20,6 +20,6 @@ After some hours of trying different plugins and comparing results, I finally se
 
 Now the site gets substantially better [web vitals score](<https://lighthouse-dot-webdotdevsite.appspot.com//lh/html?url=https%3A%2F%2Fzoia.org>).
 
-{{< figure src="/media/2021/zoia-org-web-vitals-2021-10-07.png" >}}
+{{< figure src="/media/2021/zoia-org-web-vitals-2021-10-07.png" alt="Web Vitals" >}}
 
 The perfectionist in me would aim for 99%-100% in all categories, but I don't think I can get there via plugins.  The next improvement should be reducing the site's footprint, which is currently around ~1MB uncompressed.
