@@ -4,7 +4,6 @@ author = ["Roberto Zoia"]
 date = 2022-01-11
 tags = ["100Words"]
 draft = false
-weight = 1001
 +++
 
 Last year I read [this article](<https://sive.rs/mny>) by Derek Sivers. What he proposes is to ignore arbitrary calendar dates if they don't make sense.

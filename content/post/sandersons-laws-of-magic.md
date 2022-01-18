@@ -4,7 +4,6 @@ author = ["Roberto Zoia"]
 date = 2020-08-30
 tags = ["writing", "magic", "sanderson"]
 draft = false
-weight = 1006
 +++
 
 Source: <https://www.brandonsanderson.com/sandersons-first-law/>

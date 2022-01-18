@@ -3,7 +3,6 @@ title = "Is it Worth the Time?"
 author = ["Roberto Zoia"]
 date = 2020-09-01
 draft = false
-weight = 1012
 +++
 
 I'll copy this `xkcd` comic here so I can find when I fall into another Emacs org-mode time sink.

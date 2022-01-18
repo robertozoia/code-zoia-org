@@ -3,7 +3,6 @@ title = "Symbiosis"
 author = ["Roberto Zoia"]
 date = 2021-08-24
 draft = false
-weight = 1001
 +++
 
 > With emacs and gnus, one must serve a long penance, after which shit still doesn't quite work but you've achieved a deep symbiosis with your editor/mailer and can tailor it to your very precise needs.

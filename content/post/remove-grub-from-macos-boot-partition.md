@@ -3,7 +3,6 @@ title = "Remove GRUB from MacOS boot partition"
 author = ["Roberto Zoia"]
 date = 2020-11-06
 draft = false
-weight = 1004
 +++
 
 I've got Linux on an external SSD drive which I can boot from my Macbook Pro using `Command`-`D` while powering up to select Linux as the boot drive.

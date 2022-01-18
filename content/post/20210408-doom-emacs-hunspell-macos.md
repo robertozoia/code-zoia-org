@@ -3,7 +3,6 @@ title = "Doom Emacs, Hunspell, and MacOs"
 author = ["Roberto Zoia"]
 date = 2021-04-08
 draft = false
-weight = 1003
 +++
 
 Doom Emacs uses [`spell-fu`](https://gitlab.com/ideasman42/emacs-spell-fu) as the default highlighter for spellchecking. `spell-fu` can use several options like `aspell`, `hunspell`, `enchant`, etc. for the actual spellchecking. I prefer to use [Hunspell](https://hunspell.github.io/).

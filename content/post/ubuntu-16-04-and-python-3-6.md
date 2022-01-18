@@ -3,7 +3,6 @@ title = "Ubuntu 16.04 and Python 3.6+"
 author = ["Roberto Zoia"]
 date = 2021-11-09
 draft = false
-weight = 1001
 +++
 
 I was recently in the process of upgrading a system running Django 2.2 to 3.2. Django 3.2 requires Python 3.6+. This system is running on a cloud instance of Ubuntu 16.04, which only supports Python up to 3.5.

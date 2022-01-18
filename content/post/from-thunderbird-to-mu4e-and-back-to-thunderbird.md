@@ -4,7 +4,6 @@ author = ["Roberto Zoia"]
 date = 2021-06-03
 tags = ["emacs", "email", "mu4e", "mbsync"]
 draft = false
-weight = 1002
 +++
 
 I spent a couple of days configuring Emacs as an email client in my MacBook. There are lot of useful pages available on how to achieve this. The setup involves using a program like `mbsync` or `offlineimap` to create and maintain a local copy of your emails accounts on your computer, and installing and configuring an email client like `notmuch` or `mu4e` in Emacs. (Never could get OAUTH2 to work with `mbsync` so I had to settle for custom app passwords.)

@@ -3,7 +3,6 @@ title = "Optimizing Wordpress on WPEngine"
 author = ["Roberto Zoia"]
 date = 2021-10-07
 draft = false
-weight = 1002
 +++
 
 Inspired by Kevin Quirk's post about [Core Web Vitals and Wordpress](<https://kevq.uk/core-web-vitals-and-wordpress/>), I spend some hours trying to improve the web vitals from my [other site](<https://zoia.org>), which runs on Wordpress. (You can measure your site's core vitals on [web.dev](<https://web.dev/measure/>).)
