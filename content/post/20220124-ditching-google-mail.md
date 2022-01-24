@@ -6,7 +6,6 @@ tags = ["100Words"]
 slug = "ditching-google-mail"
 draft = false
 +++
-
 Today I finally ditched Google for my personal domain's email.
 
 Google has announced that on May 1, 2022, it's ending the free tier I've been using for more than 10 years to host my domain's email. I knew this was coming long ago, but I was lazy.
